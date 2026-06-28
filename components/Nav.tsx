@@ -25,12 +25,8 @@ export function Nav() {
     >
       <nav className="max-w-6xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo-icon.png" alt="Prompts & Tools" style={{ height: 36, width: 36, objectFit: "contain", borderRadius: 8 }} />
-          <span className="font-bold text-pt-white" style={{ fontFamily: "var(--font-space-grotesk)", fontSize: "1rem", letterSpacing: "-0.02em" }}>
-            Prompts<span style={{ color: "#3B82F6" }}>&</span>Tools
-          </span>
+        <Link href="/" className="font-bold text-pt-white" style={{ fontFamily: "var(--font-space-grotesk)", fontSize: "1rem", letterSpacing: "-0.02em" }}>
+          Prompts<span style={{ color: "#3B82F6" }}>&</span>Tools
         </Link>
 
         {/* Desktop nav */}
