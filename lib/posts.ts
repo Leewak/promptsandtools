@@ -17,6 +17,7 @@ export interface Post {
   affiliates?: AffiliateProduct[];
   author?: string;
   wordCount?: number;
+  heroImage?: { src: string; alt: string; caption?: string; };
   sections?: Section[];
 }
 

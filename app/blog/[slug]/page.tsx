@@ -54,7 +54,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
         <div className="w-full overflow-hidden" style={{ maxHeight: 400 }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={`https://picsum.photos/seed/${post.slug}/1200/400`}
+            src={post.heroImage?.src ?? `https://picsum.photos/seed/${post.slug}/1200/400`}
             alt={post.title}
             className="w-full object-cover opacity-80"
             style={{ maxHeight: 400 }}
