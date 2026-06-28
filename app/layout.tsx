@@ -10,7 +10,7 @@ const spaceGrotesk = Space_Grotesk({ variable: "--font-space-grotesk", subsets: 
 
 export const metadata: Metadata = {
   title: { default: "Prompts & Tools — The Practical Guide to AI Tools", template: "%s | Prompts & Tools" },
-  description: "Honest reviews, comparisons, and how-to guides for AI tools that actually help you work smarter.",
+  description: "Independent AI Editorial",
   metadataBase: new URL("https://promptsandtools.online"),
   openGraph: {
     siteName: "Prompts & Tools",
