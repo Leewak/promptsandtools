@@ -26,14 +26,8 @@ export function Nav() {
       <nav className="max-w-6xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5">
-          <div
-            className="w-7 h-7 rounded-lg flex items-center justify-center"
-            style={{ background: "rgba(59,130,246,0.2)", border: "1px solid rgba(59,130,246,0.4)" }}
-          >
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
-            </svg>
-          </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logo-icon.png" alt="Prompts & Tools" style={{ height: 36, width: 36, objectFit: "contain", borderRadius: 8 }} />
           <span className="font-bold text-pt-white" style={{ fontFamily: "var(--font-space-grotesk)", fontSize: "1rem", letterSpacing: "-0.02em" }}>
             Prompts<span style={{ color: "#3B82F6" }}>&</span>Tools
           </span>
