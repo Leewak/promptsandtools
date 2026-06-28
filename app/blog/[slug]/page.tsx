@@ -87,11 +87,29 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             </div>
           )}
           <div className="prose-dark">
-            <p className="text-lg leading-relaxed" style={{ color: "#94A3B8" }}>{post.excerpt}</p>
-            <h2>What We Tested &amp; How</h2>
-            <p>Every tool in this guide was tested on real work tasks over multiple weeks — not synthetic benchmarks. We focus on what actually moves the needle for content creators, marketers, and business owners.</p>
-            <h2>Who This Is For</h2>
-            <p>Creators and professionals who want honest, practical AI tool reviews without the affiliate-stuffed top-10 lists. We include tools we actually use and decline partnerships with tools we don&apos;t recommend.</p>
+            <p className="text-lg leading-relaxed mb-8" style={{ color: "#94A3B8" }}>{post.excerpt}</p>
+            {post.sections?.map((section, i) => (
+              <div key={i}>
+                <h2>{section.h2}</h2>
+                {section.paras.map((para, j) => <p key={j}>{para}</p>)}
+                {section.list && (
+                  <ul>{section.list.map((item, k) => <li key={k}>{item}</li>)}</ul>
+                )}
+                {section.tip && (
+                  <div className="my-4 p-4 rounded-lg text-sm leading-relaxed" style={{ background: "rgba(34,211,238,0.07)", border: "1px solid rgba(34,211,238,0.2)", color: "#A0AEC0" }}>
+                    <strong style={{ color: "#22D3EE" }}>Pro tip: </strong>{section.tip}
+                  </div>
+                )}
+              </div>
+            ))}
+            {!post.sections && (
+              <>
+                <h2>What We Tested &amp; How</h2>
+                <p>Every tool in this guide was tested on real work tasks over multiple weeks — not synthetic benchmarks. We focus on what actually moves the needle for content creators, marketers, and business owners.</p>
+                <h2>Who This Is For</h2>
+                <p>Creators and professionals who want honest, practical AI tool reviews without the affiliate-stuffed top-10 lists. We include tools we actually use and decline partnerships with tools we don&apos;t recommend.</p>
+              </>
+            )}
           </div>
           {post.affiliates && post.affiliates.length > 1 && (
             <div className="my-10 p-5 rounded-xl" style={{ background: "rgba(34,211,238,0.06)", border: "1px solid rgba(34,211,238,0.2)" }}>
