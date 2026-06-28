@@ -171,7 +171,7 @@ export const posts: Post[] = [
       { name: "Midjourney", url: "https://midjourney.com/", cta: "Start Midjourney Basic Plan →", badge: "Best Quality" },
     ],
     wordCount: 2500,
-    heroImage: { src: "https://images.pexels.com/photos/17153194/pexels-photo-17153194.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A smartphone showing the Midjourney website on its screen against a gray textured surface.", caption: "Photo by Sanket  Mishra on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/25626448/pexels-photo-25626448.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Abstract black and white graphic featuring a multimodal model pattern with various shapes.", caption: "Photo by Google DeepMind on Pexels" },
     sections: [
       {
         h2: "How We Tested 500+ AI-Generated Images Across Four Platforms",
@@ -249,7 +249,7 @@ export const posts: Post[] = [
       { name: "Frase", url: "https://frase.io/", cta: "Start Free with Frase →", badge: "Best Value" },
     ],
     wordCount: 2600,
-    heroImage: { src: "https://images.pexels.com/photos/7119258/pexels-photo-7119258.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "SEO spelled with Scrabble tiles on a black surface, representing search engine optimization concepts.", caption: "Photo by FreeBoilerGrants on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/218717/pexels-photo-218717.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up of a tablet displaying Google's search screen, emphasizing technology and internet browsing.", caption: "Photo by AS Photography on Pexels" },
     sections: [
       {
         h2: "What AI SEO Tools Actually Do (and What They Can't)",
@@ -321,7 +321,7 @@ export const posts: Post[] = [
       { name: "Runway Gen-3", url: "https://runwayml.com/", cta: "Try Runway Free (125 credits) →", badge: "Best for Creators" },
     ],
     wordCount: 2400,
-    heroImage: { src: "https://images.pexels.com/photos/25626435/pexels-photo-25626435.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Illustration depicting classical binary bit and quantum qubit states in superposition and binary.", caption: "Photo by Google DeepMind on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/25626448/pexels-photo-25626448.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Abstract black and white graphic featuring a multimodal model pattern with various shapes.", caption: "Photo by Google DeepMind on Pexels" },
     sections: [
       {
         h2: "AI Video Generation in 2026: What's Production-Ready and What's Still a Demo",
@@ -375,7 +375,7 @@ export const posts: Post[] = [
       { name: "Intercom Fin", url: "https://www.intercom.com/", cta: "Try Intercom Free for 14 Days →", badge: "Best AI Agent" },
     ],
     wordCount: 2400,
-    heroImage: { src: "https://images.pexels.com/photos/30530420/pexels-photo-30530420.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Screen displaying AI chat interface DeepSeek on a dark background.", caption: "Photo by Matheus Bertelli on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/36771109/pexels-photo-36771109.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Interior of a convenience store in Uzbekistan with two adults manning the counter at night.", caption: "Photo by Talha K\u0131l\u0131\u00e7 on Pexels" },
     sections: [
       {
         h2: "The Only Metric That Matters: Resolution Rate Without Human Handoff",
@@ -428,7 +428,7 @@ export const posts: Post[] = [
       { name: "Cursor AI Editor", url: "https://cursor.sh/", cta: "Try Cursor Free for 2 Weeks →", badge: "Best Overall" },
     ],
     wordCount: 2500,
-    heroImage: { src: "https://images.pexels.com/photos/34804024/pexels-photo-34804024.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Blurry close-up of a computer screen displaying code with orange lighting.", caption: "Photo by Daniil Komov on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/34804018/pexels-photo-34804018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up of AI-assisted coding with menu options for debugging and problem-solving.", caption: "Photo by Daniil Komov on Pexels" },
     sections: [
       {
         h2: "30 Days, Real Projects: How We Tested AI Coding Assistants",
@@ -487,7 +487,7 @@ export const posts: Post[] = [
       { name: "Gamma AI", url: "https://gamma.app/", cta: "Create Your First Deck Free →", badge: "Best Overall" },
     ],
     wordCount: 2200,
-    heroImage: { src: "https://images.pexels.com/photos/8438956/pexels-photo-8438956.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Woman strategizing a chess game against a robot arm, illustrating technology and strategy.", caption: "Photo by Pavel Danilyuk on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/6476783/pexels-photo-6476783.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Young woman presenting on digital evolution concepts like AI and big data in a seminar.", caption: "Photo by Mikael Blomkvist on Pexels" },
     sections: [
       {
         h2: "AI Presentation Tools in 2026: What They're Good at and Where They Fail",
@@ -598,7 +598,7 @@ export const posts: Post[] = [
     author: "Prompts & Tools Editorial",
     quickAnswer: "5 most powerful content prompts: (1) Blog outline: 'Act as a senior SEO editor. Target keyword: [X]. Write a detailed outline for a 2,000-word post that ranks on page 1, including H2s, key points per section, and an FAQ.' (2) Email subject lines: '10 subject lines for [topic]. Mix curiosity, urgency, and benefit angles.' (3) Ad copy: '3 Facebook ad variations for [product], headline + body + CTA each.' (4) Social calendar: '5 LinkedIn posts about [topic] under 150 words each.' (5) Case study: 'Turn this data into a structured case study: [data].'",
     wordCount: 2400,
-    heroImage: { src: "https://images.pexels.com/photos/30530407/pexels-photo-30530407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up of an AI-driven chat interface on a computer screen, showcasing modern AI technology.", caption: "Photo by Matheus Bertelli on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/38285024/pexels-photo-38285024.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Wooden block letters spelling 'Content Creator' on a grid background. Ideal for digital marketing themes.", caption: "Photo by Ann H on Pexels" },
     sections: [
       {
         h2: "Why Most AI Content Prompts Produce Generic Results",
@@ -704,7 +704,7 @@ export const posts: Post[] = [
     author: "Prompts & Tools Editorial",
     quickAnswer: "Best Midjourney prompt formula: [Subject], [Style], [Lighting], [Camera/lens], [Mood], [Artist reference if relevant], --ar [ratio] --v 6 --q 2. Example: 'Young woman working at a minimalist desk, editorial photography style, soft natural window light, shot on Sony A7IV 85mm f/1.4, calm focused atmosphere --ar 3:2 --v 6 --q 2'. Always specify aspect ratio and version for consistent results.",
     wordCount: 2400,
-    heroImage: { src: "https://images.pexels.com/photos/38285041/pexels-photo-38285041.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Wooden Scrabble tiles spelling 'Last Call' on a wooden grid background.", caption: "Photo by Ann H on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/20994445/pexels-photo-20994445.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Detailed view of ornate wooden sculptures at the Sanctuary of Truth in Pattaya, Thailand.", caption: "Photo by Kim Villanueva on Pexels" },
     sections: [
       {
         h2: "The Anatomy of a Great Midjourney Prompt",
@@ -753,7 +753,7 @@ export const posts: Post[] = [
     author: "Prompts & Tools Editorial",
     quickAnswer: "Best Claude system prompt structure: 'You are [role] with [specific expertise]. Your communication style is [tone]. When responding, always [key behavior]. Format responses as [structure]. Never [what to avoid].' Example for copywriting: 'You are a direct response copywriter with 15 years of experience. Write in clear, conversational English. Lead with benefits, not features. Use the PAS framework (Problem, Agitation, Solution). Never use jargon or passive voice.'",
     wordCount: 2300,
-    heroImage: { src: "https://images.pexels.com/photos/37878823/pexels-photo-37878823.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up of a retro computer screen displaying MS-DOS commands with a vibrant keyboard.", caption: "Photo by Rafael Minguet Delgado on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/37657435/pexels-photo-37657435.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up of a RGB lit keyboard with a screen displaying 'Data Transfer Complete'.", caption: "Photo by Rafael Minguet Delgado on Pexels" },
     sections: [
       {
         h2: "What System Prompts Actually Do — and Why They Matter",
@@ -802,7 +802,7 @@ export const posts: Post[] = [
     author: "Prompts & Tools Editorial",
     quickAnswer: "Platform-specific prompt rules: LinkedIn — 'Write a thought leadership post about [topic] that starts with a counterintuitive statement, shares a personal story in 3 sentences, and ends with a question. 150–200 words. No hashtags.' Instagram — 'Write a caption for a [product/photo description]. Hook in line 1, story in 2–3 lines, CTA last. 5 hashtags at end.' TikTok script — 'Write a 30-second TikTok script about [topic]. Hook: surprising fact. Middle: 3 quick tips. End: save this for later.'",
     wordCount: 2500,
-    heroImage: { src: "https://images.pexels.com/photos/15406294/pexels-photo-15406294.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A smartphone screen displaying popular social media applications like Instagram and Twitter.", caption: "Photo by Bastian Riccardi on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/17153194/pexels-photo-17153194.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A smartphone showing the Midjourney website on its screen against a gray textured surface.", caption: "Photo by Sanket  Mishra on Pexels" },
     sections: [
       {
         h2: "Why the Same Prompt Produces Different Results on Different Platforms",
@@ -853,7 +853,7 @@ export const posts: Post[] = [
     author: "Prompts & Tools Editorial",
     quickAnswer: "Best email subject line prompt: 'Write 15 subject lines for an email about [topic] targeting [audience]. Include: 3 curiosity-gap lines, 3 benefit-driven lines, 3 urgency/scarcity lines, 3 question-format lines, 3 personal/story lines. Keep each under 50 characters.' For email body: 'Write a [type] email for [product/offer]. PAS format: Problem (1 sentence), Agitate (2 sentences showing cost of inaction), Solution (3 sentences). CTA: [desired action]. Tone: [conversational/professional]. Under 200 words.'",
     wordCount: 2300,
-    heroImage: { src: "https://images.pexels.com/photos/30530407/pexels-photo-30530407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up of an AI-driven chat interface on a computer screen, showcasing modern AI technology.", caption: "Photo by Matheus Bertelli on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/19399416/pexels-photo-19399416.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Planner open on a desk with handwritten 'Holiday Email Marketing Series' note.", caption: "Photo by Walls.io on Pexels" },
     sections: [
       {
         h2: "Why Subject Lines Win or Lose Before the Email Is Read",
@@ -897,7 +897,7 @@ export const posts: Post[] = [
     author: "Prompts & Tools Editorial",
     quickAnswer: "5 advanced prompt techniques: (1) Chain-of-thought: add 'Think step by step' before complex reasoning tasks — improves accuracy 40%+. (2) Few-shot: show 2-3 examples of what you want before asking. (3) Role + constraints: 'You are X. You must Y. You never Z.' (4) Structured output: 'Respond only in JSON with keys: title, summary, tags.' (5) Self-critique: 'Review your answer and fix any errors or omissions before finalizing.' Each technique compounds — combine them for best results.",
     wordCount: 2700,
-    heroImage: { src: "https://images.pexels.com/photos/8439001/pexels-photo-8439001.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Two scientists working with a robotic arm in a lab setting, focusing on innovation and technology.", caption: "Photo by Pavel Danilyuk on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/33917387/pexels-photo-33917387.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Black and white abstract of an airplane turbine engine fan showcasing symmetrical blades.", caption: "Photo by Joerg Mangelsen on Pexels" },
     sections: [
       {
         h2: "Why Basic Prompts Have a Quality Ceiling",
@@ -964,7 +964,7 @@ export const posts: Post[] = [
       { name: "Make.com", url: "https://make.com/", cta: "Start Automating Free →", badge: "Free Plan" },
     ],
     wordCount: 2300,
-    heroImage: { src: "https://images.pexels.com/photos/15595051/pexels-photo-15595051.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A desktop setup with social media marketing essentials including a keyboard, lightbox, and guide.", caption: "Photo by Walls.io on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/4604607/pexels-photo-4604607.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A close-up of a typewriter showcasing 'ARTIFICIAL INTELLIGENCE' on paper.", caption: "Photo by Markus Winkler on Pexels" },
     sections: [
       {
         h2: "Why Brand Voice Is the Real Challenge in Social Media Automation",
@@ -1012,7 +1012,7 @@ export const posts: Post[] = [
       { name: "Make.com (Zapier Alternative)", url: "https://make.com/", cta: "Try Make.com Free →", badge: "Better than Zapier" },
     ],
     wordCount: 2300,
-    heroImage: { src: "https://images.pexels.com/photos/15505432/pexels-photo-15505432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Organized whiteboard with colorful sticky notes used for planning and brainstorming.", caption: "Photo by Walls.io on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/8386357/pexels-photo-8386357.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A robotic hand reaching towards a bright light on a white background symbolizing innovation.", caption: "Photo by Tara Winstead on Pexels" },
     sections: [
       {
         h2: "The Email Automation Architecture: From Content Idea to Sent Newsletter",
@@ -1066,7 +1066,7 @@ export const posts: Post[] = [
       { q: "Do I need coding skills to automate my business with AI?", a: "No. Make.com, Zapier, and Zapier Interfaces are all no-code tools designed for non-technical users. You can build sophisticated automations — including AI-powered ones using the Claude or OpenAI API modules — with no coding required. Most workflows take 30–90 minutes to set up for the first time." },
     ],
     wordCount: 2700,
-    heroImage: { src: "https://images.pexels.com/photos/11251719/pexels-photo-11251719.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up of an open business hours sign displayed in a shop window.", caption: "Photo by Erik Mclean on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/8294629/pexels-photo-8294629.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A large robot stands beside a small toy robot with colorful studio lighting, showcasing technology innovation.", caption: "Photo by Pavel Danilyuk on Pexels" },
     sections: [
       {
         h2: "Why Small Businesses Are Automating Faster Than Enterprise in 2026",
@@ -1143,6 +1143,7 @@ export const posts: Post[] = [
       { name: "Make.com", url: "https://make.com/", cta: "Try Make.com — Best Value →", badge: "Our Pick" },
     ],
     wordCount: 2500,
+    heroImage: { src: "https://images.pexels.com/photos/36731187/pexels-photo-36731187.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Fashion designer works diligently on sketches in a creative studio setting.", caption: "Photo by Vitaly Gariev on Pexels" },
     sections: [
       {
         h2: "We Built the Same 10 Workflows in All Three Tools — Here's What We Found",
@@ -1200,7 +1201,7 @@ export const posts: Post[] = [
     author: "Prompts & Tools Editorial",
     quickAnswer: "Content repurposing automation: Publish blog post → Webhook triggers Make.com → Claude API receives full article → generates: 1 email newsletter summary, 5 LinkedIn post variations, 10 tweet options, 1 YouTube description + script outline, 1 TikTok/Reels script → all saved to Airtable content calendar for review. Setup time: 4 hours. Ongoing: 15 min review per article. Tools: Make.com ($9/mo) + Claude API (~$3/mo per article batch).",
     wordCount: 2400,
-    heroImage: { src: "https://images.pexels.com/photos/19825351/pexels-photo-19825351.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Wooden letter tiles spelling 'Blog Post' on a wooden background, ideal for online media concepts.", caption: "Photo by Markus Winkler on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/4604607/pexels-photo-4604607.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A close-up of a typewriter showcasing 'ARTIFICIAL INTELLIGENCE' on paper.", caption: "Photo by Markus Winkler on Pexels" },
     sections: [
       {
         h2: "The Content Repurposing Math: Why This Is the Highest-ROI Automation for Creators",
@@ -1245,7 +1246,7 @@ export const posts: Post[] = [
     author: "Prompts & Tools Editorial",
     quickAnswer: "AI agents ready for production in 2026: (1) Research agents — browse web, compile reports (Perplexity, Claude with browser). (2) Coding agents — write, test, and deploy code (Cursor, GitHub Copilot Workspace). (3) Customer service agents — resolve tier-1 tickets without humans (Intercom Fin, Zendesk AI). (4) Data analysis agents — process spreadsheets and generate insights (Claude, GPT-4o with Code Interpreter). Not ready yet: fully autonomous marketing campaigns, financial decisions without human review.",
     wordCount: 2500,
-    heroImage: { src: "https://images.pexels.com/photos/16380906/pexels-photo-16380906.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Smartphone displaying AI app with book on AI technology in background.", caption: "Photo by Sanket  Mishra on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/7681839/pexels-photo-7681839.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A diverse group of call center agents working with laptops and headsets in a modern office.", caption: "Photo by Mikhail Nilov on Pexels" },
     sections: [
       {
         h2: "What AI Agents Actually Are (and Why They're Different from Chatbots)",
@@ -1309,7 +1310,7 @@ export const posts: Post[] = [
       { q: "Does Claude have web search?", a: "Claude has limited web search capability as of 2026. ChatGPT's Browse feature is more mature and reliable for real-time web research. For current news and live data, ChatGPT with Browse or Perplexity AI are better choices than Claude." },
     ],
     wordCount: 2600,
-    heroImage: { src: "https://images.pexels.com/photos/16037283/pexels-photo-16037283.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A laptop displaying ChatGPT on a desk by a window, featuring a modern home office setup.", caption: "Photo by Hatice Baran on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/16461434/pexels-photo-16461434.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up of a smartphone displaying ChatGPT app held over AI textbook.", caption: "Photo by Sanket  Mishra on Pexels" },
     sections: [
       {
         h2: "How We Tested Claude vs ChatGPT: 50 Real Work Tasks",
@@ -1389,7 +1390,7 @@ export const posts: Post[] = [
     author: "Prompts & Tools Editorial",
     quickAnswer: "ChatGPT vs Gemini 2026: ChatGPT (GPT-4o) is better for creative writing, coding, and plugins. Gemini 1.5 Pro is better for Google Workspace users (Docs, Gmail, Sheets integration), research with Google Search grounding, and multimodal tasks. If you live in Google products: Gemini Advanced ($20/mo, included in Google One AI). If you want the best AI writing: ChatGPT Plus ($20/mo).",
     wordCount: 2400,
-    heroImage: { src: "https://images.pexels.com/photos/30839678/pexels-photo-30839678.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up of Scrabble tiles forming the words 'API' and 'GEMINI' on a wooden surface.", caption: "Photo by Markus Winkler on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/30869073/pexels-photo-30869073.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up of wooden Scrabble tiles spelling Gemini and ChatGPT on a wooden surface.", caption: "Photo by Markus Winkler on Pexels" },
     sections: [
       {
         h2: "Why This Comparison Matters More Than Ever in 2026",
@@ -1448,7 +1449,7 @@ export const posts: Post[] = [
       { name: "Writesonic", url: "https://writesonic.com/", cta: "Start Free with Writesonic →", badge: "Best Value" },
     ],
     wordCount: 2400,
-    heroImage: { src: "https://images.pexels.com/photos/34057066/pexels-photo-34057066.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A smartphone displaying pages lies among open books, symbolizing digital integration.", caption: "Photo by Nivo Pictures on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/6517335/pexels-photo-6517335.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "An adult man in formal wear writing notes at his home office desk with a computer.", caption: "Photo by RDNE Stock project on Pexels" },
     sections: [
       {
         h2: "What We Actually Tested: 20 Tasks, Three Tools, One Honest Verdict",
@@ -1507,7 +1508,7 @@ export const posts: Post[] = [
       { name: "Frase", url: "https://frase.io/", cta: "Start with Frase →", badge: "Best Value" },
     ],
     wordCount: 2600,
-    heroImage: { src: "https://images.pexels.com/photos/9822732/pexels-photo-9822732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Wooden blocks spelling SEO on a laptop keyboard convey digital marketing concepts.", caption: "Photo by Atlantic Ambience on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/6961859/pexels-photo-6961859.png?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A person working on a laptop in a cozy indoor setting with a coffee cup on the table.", caption: "Photo by Firmbee.com on Pexels" },
     sections: [
       {
         h2: "The Test: 30 Articles, 3 Tools, 90 Days of Rank Tracking",
@@ -1571,7 +1572,7 @@ export const posts: Post[] = [
       { name: "Midjourney", url: "https://midjourney.com/", cta: "Start Midjourney →", badge: "Best Quality" },
     ],
     wordCount: 2800,
-    heroImage: { src: "https://images.pexels.com/photos/33755412/pexels-photo-33755412.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A vintage Yashica camera next to a modern smartphone, showcasing old and new technology.", caption: "Photo by Themba Mtegha on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/7013407/pexels-photo-7013407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Drone shot of a green cemetery in Tangerang, Indonesia, showcasing arranged tombstones and mausoleums.", caption: "Photo by Tom Fisk on Pexels" },
     sections: [
       {
         h2: "The Test: 50 Identical Prompts Across Three Generators",
@@ -1701,7 +1702,7 @@ export const posts: Post[] = [
       { name: "Jasper AI (Marketing Suite)", url: "https://jasper.ai/", cta: "Build Your Marketing Engine →" },
     ],
     wordCount: 2500,
-    heroImage: { src: "https://images.pexels.com/photos/17560587/pexels-photo-17560587.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up view of a smartphone showcasing the ChatGPT app against a colorful background.", caption: "Photo by Patrick Gamelkoorn on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/16474955/pexels-photo-16474955.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Smartphone showing OpenAI ChatGPT in focus, on top of an open book, highlighting technology and learning.", caption: "Photo by Shantanu Kumar on Pexels" },
     sections: [
       {
         h2: "The One-Shot vs Workflow Distinction: Why Most ChatGPT Marketing Fails",
@@ -1750,7 +1751,7 @@ export const posts: Post[] = [
     author: "Prompts & Tools Editorial",
     quickAnswer: "Claude long-form writing workflow: (1) Brief: paste your research, sources, and outline into Claude. (2) Section-by-section: ask Claude to write one section at a time, not the whole article. (3) Review + feedback loop: 'This section is too generic — add a specific example and a statistic.' (4) Voice calibration: share 2 examples of your past writing so Claude matches your style. (5) Final edit: ask Claude to 'identify any weak paragraphs and suggest improvements.' This produces 2x better output than one-shot article generation.",
     wordCount: 2600,
-    heroImage: { src: "https://images.pexels.com/photos/6927374/pexels-photo-6927374.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Person filling out U.S. tax form 1040-NR-EZ with a pen on a wooden table.", caption: "Photo by Polina Tankilevitch on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/37860169/pexels-photo-37860169.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A student takes notes in a classroom in Buenos Aires. Natural lighting highlights the writing process.", caption: "Photo by jessica olivella on Pexels" },
     sections: [
       {
         h2: "Why Claude Outperforms Other AIs for Long-Form Writing",
@@ -1867,7 +1868,7 @@ export const posts: Post[] = [
       { name: "Perplexity Pro", url: "https://perplexity.ai/", cta: "Try Perplexity Pro Free →", badge: "Best for Research" },
     ],
     wordCount: 2400,
-    heroImage: { src: "https://images.pexels.com/photos/16461434/pexels-photo-16461434.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up of a smartphone displaying ChatGPT app held over AI textbook.", caption: "Photo by Sanket  Mishra on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/8877104/pexels-photo-8877104.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A female scientist with futuristic attire reviews notes in an advanced lab setting.", caption: "Photo by cottonbro studio on Pexels" },
     sections: [
       {
         h2: "The Research Workflow Stack: Three Tools for Three Different Research Phases",
@@ -1917,7 +1918,7 @@ export const posts: Post[] = [
     author: "Prompts & Tools Editorial",
     quickAnswer: "Best AI tools to start with in 2026 (in order): (1) ChatGPT Free — for everyday questions and writing. (2) Claude Free — for longer documents and detailed writing. (3) Perplexity Free — for research with real sources. (4) Canva AI — for design. (5) Otter.ai Free — for meeting transcription. Start with just one tool for 2 weeks before adding more. The biggest mistake: trying every tool at once and mastering none.",
     wordCount: 2400,
-    heroImage: { src: "https://images.pexels.com/photos/14814061/pexels-photo-14814061.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Creative flat lay of gadgets and 'Beginners Guide' text on wooden table.", caption: "Photo by Ling App on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/8438954/pexels-photo-8438954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A robotic arm and a person engaged in a strategic chess match on a chessboard.", caption: "Photo by Pavel Danilyuk on Pexels" },
     sections: [
       {
         h2: "The Beginner's Mistake: Too Many Tools, Not Enough Practice",
@@ -2000,7 +2001,7 @@ export const posts: Post[] = [
     coverColor: "#7C2D12",
     author: "Prompts & Tools Editorial",
     wordCount: 1637,
-    heroImage: { src: "https://images.pexels.com/photos/4604607/pexels-photo-4604607.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A close-up of a typewriter showcasing 'ARTIFICIAL INTELLIGENCE' on paper.", caption: "Photo by Markus Winkler on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up of a computer screen displaying ChatGPT interface in a dark setting.", caption: "Photo by Matheus Bertelli on Pexels" },
     quickAnswer: "Jasper AI excels for long-form content and brand voice consistency with its sophisticated AI and higher price point, while Writesonic offers faster, more affordable content generation ideal for bulk social media and ad copy. Your choice depends on whether you prioritize quality and customization or speed and budget.",
     faq: [
       { q: "Is Jasper AI worth the extra cost compared to Writesonic?", a: "Yes, if your business depends on content quality and brand consistency. Jasper's superior output means fewer revisions, which saves time and maintains brand voice across all content. For agencies and content professionals, Jasper's ROI is clear. For solopreneurs creating bulk content for testing, Writesonic's lower cost and faster generation often make it the better value." },
