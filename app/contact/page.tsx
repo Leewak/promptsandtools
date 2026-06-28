@@ -1,24 +1,29 @@
 "use client";
 import type { Metadata } from "next";
+
 export default function ContactPage() {
   return (
     <div className="max-w-2xl mx-auto px-5 sm:px-8 py-20">
-      <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gradient" style={{ fontFamily: "var(--font-space-grotesk)", letterSpacing: "-0.025em" }}>Contact Us</h1>
+      <p className="text-xs font-mono mb-4" style={{ color: "#3B82F6" }}>GET IN TOUCH</p>
+      <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gradient" style={{ fontFamily: "var(--font-space-grotesk)", letterSpacing: "-0.025em" }}>Contact Prompts &amp; Tools</h1>
       <p className="mb-10 text-sm leading-relaxed" style={{ color: "#6B7DB8" }}>
-        Have a question, correction, or partnership inquiry? We read every message and reply within 2–3 business days.
+        We are an independent editorial team dedicated to honest AI tool reviews and productivity guides. Reach out for corrections, partnership inquiries, or general questions.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
+
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
         {[
-          { title: "Editorial", desc: "Corrections, content suggestions, or topic requests" },
-          { title: "Partnerships", desc: "Sponsorship, collaboration, or affiliate inquiries" },
-          { title: "Technical", desc: "Broken links, site issues, or display problems" },
-        ].map(({ title, desc }) => (
-          <div key={title} className="p-4 rounded-xl" style={{ background: "rgba(59,130,246,0.05)", border: "1px solid rgba(59,130,246,0.15)" }}>
-            <p className="font-semibold text-sm mb-1" style={{ color: "#3B82F6" }}>{title}</p>
-            <p className="text-xs" style={{ color: "#4A5580" }}>{desc}</p>
+          { icon: "✎", title: "Editorial", desc: "Corrections, guest posts, or content suggestions" },
+          { icon: "◈", title: "Partnerships", desc: "Sponsorships, sponsored reviews, or affiliate programs" },
+          { icon: "⚙", title: "Technical", desc: "Broken links, display issues, or site feedback" },
+        ].map(({ icon, title, desc }) => (
+          <div key={title} className="p-4 rounded-xl" style={{ background: "rgba(59,130,246,0.05)", border: "1px solid rgba(59,130,246,0.12)" }}>
+            <span className="text-lg mb-2 block" style={{ color: "#3B82F6" }}>{icon}</span>
+            <p className="font-semibold text-sm mb-1" style={{ color: "#CBD5E1" }}>{title}</p>
+            <p className="text-xs leading-snug" style={{ color: "#4A5580" }}>{desc}</p>
           </div>
         ))}
       </div>
+
       <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
@@ -32,7 +37,7 @@ export default function ContactPage() {
         </div>
         <div>
           <label className="block text-xs font-semibold mb-2" style={{ color: "#6B7DB8" }}>Subject</label>
-          <input type="text" placeholder="What is this about?" className="w-full px-4 py-3 rounded-xl text-sm outline-none" style={{ background: "#080B18", border: "1px solid #1C2245", color: "#F0F4FF" }} />
+          <input type="text" placeholder="How can we help?" className="w-full px-4 py-3 rounded-xl text-sm outline-none" style={{ background: "#080B18", border: "1px solid #1C2245", color: "#F0F4FF" }} />
         </div>
         <div>
           <label className="block text-xs font-semibold mb-2" style={{ color: "#6B7DB8" }}>Message</label>
@@ -41,10 +46,18 @@ export default function ContactPage() {
         <button type="submit" className="w-full py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ background: "linear-gradient(135deg, #3B82F6, #22D3EE)", color: "#fff", fontFamily: "var(--font-space-grotesk)" }}>
           Send Message
         </button>
-        <p className="text-center text-xs" style={{ color: "#2A3260" }}>
-          Or email us directly at <a href="mailto:guifrhi.khalid@gmail.com" style={{ color: "#3B82F6" }}>guifrhi.khalid@gmail.com</a>
-        </p>
       </form>
+
+      <div className="mt-10 pt-8 grid grid-cols-1 sm:grid-cols-2 gap-6" style={{ borderTop: "1px solid #1C2245" }}>
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "#3B82F6" }}>Email</p>
+          <p className="text-sm" style={{ color: "#CBD5E1" }}>hello@promptsandtools.online</p>
+        </div>
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "#3B82F6" }}>Response Time</p>
+          <p className="text-sm" style={{ color: "#CBD5E1" }}>Within 2–3 business days</p>
+        </div>
+      </div>
     </div>
   );
 }

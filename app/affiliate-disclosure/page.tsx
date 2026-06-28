@@ -33,7 +33,7 @@ export default function AffiliateDisclosurePage() {
         },
         {
           h: "Questions?",
-          body: "If you have questions about our affiliate relationships or want to know whether a specific link is an affiliate link, contact us at guifrhi.khalid@gmail.com.",
+          body: "If you have questions about our affiliate relationships or want to know whether a specific link is an affiliate link, contact us at hello@promptsandtools.online.",
         },
       ].map(({ h, body }) => (
         <div key={h} className="mb-8">

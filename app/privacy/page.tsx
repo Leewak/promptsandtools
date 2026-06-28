@@ -54,7 +54,7 @@ export default function PrivacyPage() {
         },
         {
           h: "11. Contact",
-          body: "If you have questions about this Privacy Policy, please contact us at: guifrhi.khalid@gmail.com",
+          body: "If you have questions about this Privacy Policy, please contact us at: hello@promptsandtools.online",
         },
       ].map(({ h, body }) => (
         <div key={h} className="mb-8">

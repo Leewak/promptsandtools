@@ -20,7 +20,7 @@ export default function TermsPage() {
         { h: "7. Limitation of Liability", body: "To the maximum extent permitted by law, Prompts & Tools shall not be liable for any damages arising from your use of this website, including but not limited to direct, indirect, incidental, or consequential damages." },
         { h: "8. Governing Law", body: "These Terms are governed by applicable law. Any disputes arising from these Terms or your use of the site shall be resolved in accordance with applicable law." },
         { h: "9. Changes to Terms", body: "We reserve the right to modify these Terms at any time. Changes will be posted on this page with an updated date. Continued use of the site after changes constitutes acceptance of the new Terms." },
-        { h: "10. Contact", body: "Questions about these Terms? Contact us at guifrhi.khalid@gmail.com." },
+        { h: "10. Contact", body: "Questions about these Terms? Contact us at hello@promptsandtools.online." },
       ].map(({ h, body }) => (
         <div key={h} className="mb-8">
           <h2 className="text-lg font-bold mb-3" style={{ color: "#CBD5E1", fontFamily: "var(--font-space-grotesk)" }}>{h}</h2>
