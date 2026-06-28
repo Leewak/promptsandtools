@@ -55,7 +55,7 @@ export default function HomePage() {
           </div>
 
           <div className="flex flex-wrap justify-center gap-10 mt-16">
-            {[["50+", "Tools Reviewed"], ["100K+", "Monthly Readers"], ["0", "Sponsored Posts"]].map(([num, label]) => (
+            {[["50+", "Tools Reviewed"], ["100K+", "Monthly Readers"], ["Weekly", "Updated"]].map(([num, label]) => (
               <div key={label} className="text-center">
                 <div className="text-2xl font-bold mb-0.5" style={{ fontFamily: "var(--font-space-grotesk)", color: "#3B82F6" }}>{num}</div>
                 <div className="text-xs" style={{ color: "#4A5580" }}>{label}</div>
