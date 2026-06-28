@@ -46,15 +46,20 @@ export function Footer() {
           <div>
             <h4 className="text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: "#3B82F6" }}>Site</h4>
             <ul className="space-y-2">
-              {["All Articles", "Newsletter", "About", "Privacy Policy", "Disclaimer"].map((label) => (
+              {[
+                { label: "All Articles", href: "/blog" },
+                { label: "Newsletter", href: "/newsletter" },
+                { label: "Contact", href: "/contact" },
+                { label: "Privacy Policy", href: "/privacy" },
+                { label: "Cookie Policy", href: "/cookie-policy" },
+                { label: "Affiliate Disclosure", href: "/affiliate-disclosure" },
+                { label: "Disclaimer", href: "/disclaimer" },
+                { label: "Terms of Use", href: "/terms" },
+              ].map(({ label, href }) => (
                 <li key={label}>
-                  <Link
-                    href={`/${label.toLowerCase().replace(/ /g, "-")}`}
-                    className="text-sm transition-colors"
-                    style={{ color: "#4A5580" }}
+                  <Link href={href} className="text-sm transition-colors" style={{ color: "#4A5580" }}
                     onMouseEnter={(e) => (e.currentTarget.style.color = "#F0F4FF")}
-                    onMouseLeave={(e) => (e.currentTarget.style.color = "#4A5580")}
-                  >
+                    onMouseLeave={(e) => (e.currentTarget.style.color = "#4A5580")}>
                     {label}
                   </Link>
                 </li>
