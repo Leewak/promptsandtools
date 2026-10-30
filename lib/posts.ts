@@ -1,6 +1,7 @@
+import { postImages } from './postImages';
 export interface FAQ { q: string; a: string; }
 export interface AffiliateProduct { name: string; url: string; cta: string; badge?: string; }
-export interface Section { h2: string; paras: string[]; list?: string[]; tip?: string; }
+export interface Section { h2: string; paras: string[]; list?: string[]; tip?: string; image?: { src: string; alt: string; caption?: string; }; }
 
 export interface Post {
   slug: string;
@@ -2025,6 +2026,14 @@ export const posts: Post[] = [
     ],
   },
 ];
+
+// Extra photos (Pexels) picked by blog-farm/scripts/section_images.py: cover (fills a missing one or replaces a duplicate) + in-article images.
+for (const p of posts) {
+  const extra = postImages[p.slug];
+  if (!extra) continue;
+  if (extra.hero) p.heroImage = extra.hero;
+  p.sections?.forEach((s, i) => { if (extra.sections?.[i] && !s.image) s.image = extra.sections[i]; });
+}
 
 export function getPost(slug: string): Post | undefined { return posts.find((p) => p.slug === slug); }
 export function getPostsByCategory(categorySlug: string): Post[] { return posts.filter((p) => p.category === categorySlug); }

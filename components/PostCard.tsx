@@ -23,6 +23,13 @@ export function PostCard({ post, featured = false }: PostCardProps) {
             className="absolute inset-0"
             style={{ background: `linear-gradient(135deg, ${post.coverColor || "#10142A"} 0%, #080B18 100%)` }}
           />
+          {post.heroImage && (
+            <>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={post.heroImage.src} alt="" aria-hidden className="absolute inset-0 w-full h-full object-cover opacity-35" />
+              <div className="absolute inset-0" style={{ background: "linear-gradient(90deg, #080B18 0%, rgba(8,11,24,.85) 55%, rgba(8,11,24,.4) 100%)" }} />
+            </>
+          )}
           {/* Dot grid overlay */}
           <div className="absolute inset-0 dot-grid opacity-30" />
           {/* Glow orb */}
@@ -60,9 +67,16 @@ export function PostCard({ post, featured = false }: PostCardProps) {
   return (
     <Link href={`/blog/${post.slug}`} className="block group">
       <article
-        className="rounded-xl p-6 h-full transition-all duration-200 group-hover:border-pt-blue/30"
+        className="rounded-xl overflow-hidden h-full flex flex-col transition-all duration-200 group-hover:border-pt-blue/30"
         style={{ border: "1px solid #1C2245", background: "#0C0F22" }}
       >
+        {post.heroImage && (
+          <div className="aspect-[16/9] overflow-hidden" style={{ background: "#10142A" }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={post.heroImage.src} alt={post.heroImage.alt} loading="lazy" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.03]" />
+          </div>
+        )}
+        <div className="p-6 flex-1">
         <div className="flex items-center gap-2.5 mb-4">
           <span className="tag-pill" style={{ borderColor: `${catColor}40`, background: `${catColor}15`, color: catColor }}>
             {catLabel}
@@ -75,6 +89,7 @@ export function PostCard({ post, featured = false }: PostCardProps) {
         </h3>
         <p className="text-sm leading-relaxed mb-4 line-clamp-2" style={{ color: "#4A5580" }}>{post.excerpt}</p>
         <span className="text-xs" style={{ color: "#2A3260" }}>{formatDate(post.date)}</span>
+        </div>
       </article>
     </Link>
   );
