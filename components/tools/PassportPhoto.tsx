@@ -66,7 +66,7 @@ export default function PassportPhoto({ defaultSize = "us" }: { defaultSize?: st
   return (
     <Panel>
       <div className="flex flex-col gap-5">
-        <Drop accept="image/*" label={img ? "Photo loaded. Choose another?" : "Choose a front-facing photo on a plain light background"}
+        <Drop button="Choose photo" accept="image/*" label={img ? "Photo loaded. Choose another?" : "Drop a front-facing photo here"}
           onFiles={async (f) => { if (!f[0]) return; try { setImg(await loadImage(f[0])); setZoom(1); setOff({ x: 0, y: 0 }); setError(""); } catch (e) { setError((e as Error).message); } }} />
         {error && <Note tone="error">{error}</Note>}
         <Field label="Photo size">
@@ -75,7 +75,7 @@ export default function PassportPhoto({ defaultSize = "us" }: { defaultSize?: st
           </select>
         </Field>
         <div className="flex flex-col sm:flex-row gap-6 items-start">
-          <canvas ref={preview} className="rounded-lg touch-none cursor-move" style={{ border: "1px solid #2A3366", maxWidth: "100%" }}
+          <canvas ref={preview} className="rounded-lg touch-none cursor-move" style={{ border: "1px solid #2A2E55", maxWidth: "100%" }}
             onPointerDown={(e) => { drag.current = { x: e.clientX, y: e.clientY }; (e.target as HTMLElement).setPointerCapture(e.pointerId); }}
             onPointerMove={(e) => { if (!drag.current) return; const c = preview.current!; setOff((o) => ({ x: o.x + (e.clientX - drag.current!.x) / c.clientWidth, y: o.y + (e.clientY - drag.current!.y) / c.clientHeight })); drag.current = { x: e.clientX, y: e.clientY }; }}
             onPointerUp={() => { drag.current = null; }} />

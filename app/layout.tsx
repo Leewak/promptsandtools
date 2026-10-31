@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Inter, JetBrains_Mono, Space_Grotesk } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { Nav } from "@/components/Nav";
@@ -7,11 +7,12 @@ import { Footer } from "@/components/Footer";
 import { AdsterraPopunder, AdsterraSideRails, AdsterraSocialBar } from "@/components/Adsterra";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
-const spaceGrotesk = Space_Grotesk({ variable: "--font-space-grotesk", subsets: ["latin"] });
+const spaceGrotesk = Space_Grotesk({ variable: "--font-space-grotesk", subsets: ["latin"], weight: ["400", "500", "600", "700"] });
+const mono = JetBrains_Mono({ variable: "--font-mono", subsets: ["latin"], weight: ["400", "500", "600"] });
 
 export const metadata: Metadata = {
-  title: { default: "Prompts & Tools — The Practical Guide to AI Tools", template: "%s | Prompts & Tools" },
-  description: "Independent AI Editorial",
+  title: { default: "Prompts&Tools: Free File Tools for Any Form (No Upload)", template: "%s" },
+  description: "Compress a PDF to 200 KB, resize a photo to 20 KB, or make a passport photo in the official size. Free tools that run in your browser.",
   metadataBase: new URL("https://promptsandtools.online"),
   openGraph: {
     siteName: "Prompts & Tools",
@@ -23,10 +24,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
+    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable} ${mono.variable}`}>
       <head>
       </head>
-      <body className="min-h-screen flex flex-col bg-pt-black text-pt-white antialiased">
+      <body className="min-h-screen flex flex-col antialiased" style={{ background: "#0A0B1A", color: "#E8EAF6", fontFamily: "var(--font-space-grotesk)" }}>
         <Nav />
         <main className="flex-1">{children}</main>
         <AdsterraSideRails />

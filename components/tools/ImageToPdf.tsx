@@ -41,15 +41,15 @@ export default function ImageToPdf() {
   return (
     <Panel>
       <div className="flex flex-col gap-5">
-        <Drop accept="image/*" multiple label="Choose images (JPG, PNG, WebP), as many as you need" onFiles={(f) => { setFiles([...files, ...f]); setDone(null); }} />
+        <Drop button="Choose images" accept="image/*" multiple label="Drop images here (JPG, PNG, WebP)" onFiles={(f) => { setFiles([...files, ...f]); setDone(null); }} />
         {files.length > 0 && (
           <ol className="flex flex-col gap-2">
             {files.map((f, i) => (
-              <li key={i + f.name} className="flex items-center justify-between gap-3 rounded-lg px-3 py-2 text-sm" style={{ background: "#0C0F22", border: "1px solid #1C2245" }}>
-                <span className="text-pt-white truncate">{i + 1}. {f.name} <span style={{ color: "#6B7DB8" }}>({formatBytes(f.size)})</span></span>
+              <li key={i + f.name} className="flex items-center justify-between gap-3 rounded-lg px-3 py-2 text-sm" style={{ background: "#0C0D22", border: "1px solid #1F2244" }}>
+                <span className="text-[#E8EAF6] truncate">{i + 1}. {f.name} <span style={{ color: "#9CA1C9" }}>({formatBytes(f.size)})</span></span>
                 <span className="flex gap-1 shrink-0">
-                  <button type="button" onClick={() => move(i, -1)} className="px-2" style={{ color: "#C7D2FE" }} aria-label="Move up">↑</button>
-                  <button type="button" onClick={() => move(i, 1)} className="px-2" style={{ color: "#C7D2FE" }} aria-label="Move down">↓</button>
+                  <button type="button" onClick={() => move(i, -1)} className="px-2" style={{ color: "#C9CCE8" }} aria-label="Move up">↑</button>
+                  <button type="button" onClick={() => move(i, 1)} className="px-2" style={{ color: "#C9CCE8" }} aria-label="Move down">↓</button>
                   <button type="button" onClick={() => { setFiles(files.filter((_, j) => j !== i)); setDone(null); }} className="px-2" style={{ color: "#F87171" }} aria-label="Remove">✕</button>
                 </span>
               </li>

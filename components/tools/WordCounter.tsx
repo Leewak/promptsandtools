@@ -20,9 +20,9 @@ export default function WordCounter() {
     <Panel>
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-4">
         {Object.entries(s).map(([k, v]) => (
-          <div key={k} className="rounded-xl px-4 py-3" style={{ background: "#0C0F22", border: "1px solid #1C2245" }}>
-            <div className="text-2xl font-bold text-pt-white" style={{ fontFamily: "var(--font-space-grotesk)" }}>{v}</div>
-            <div className="text-xs" style={{ color: "#6B7DB8" }}>{k}</div>
+          <div key={k} className="rounded-xl px-4 py-3" style={{ background: "#0C0D22", border: "1px solid #1F2244" }}>
+            <div className="text-2xl font-bold text-[#E8EAF6]" style={{ fontFamily: "var(--font-space-grotesk)" }}>{v}</div>
+            <div className="text-xs" style={{ color: "#9CA1C9" }}>{k}</div>
           </div>
         ))}
       </div>

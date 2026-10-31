@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function BlogPage() {
   return (
-    <div className="pt-28 pb-20">
+    <div className="pt-12 pb-20">
       <div className="max-w-6xl mx-auto px-5 sm:px-8">
         {/* Header */}
         <div className="mb-12">

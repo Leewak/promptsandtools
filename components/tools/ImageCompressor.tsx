@@ -34,7 +34,7 @@ export default function ImageCompressor() {
   return (
     <Panel>
       <div className="flex flex-col gap-5">
-        <Drop accept="image/*" multiple label={files.length ? `${files.length} image(s) selected` : "Choose images (you can pick several)"} onFiles={(f) => { setFiles(f); setOuts([]); }} />
+        <Drop button="Choose images" accept="image/*" multiple label={files.length ? `${files.length} image(s) selected` : "Drop images here"} onFiles={(f) => { setFiles(f); setOuts([]); }} />
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           <Field label={`Quality: ${Math.round(quality * 100)}%`}>
             <input type="range" min={0.1} max={0.95} step={0.05} value={quality} onChange={(e) => setQuality(Number(e.target.value))} disabled={format === "image/png"} />
@@ -54,8 +54,8 @@ export default function ImageCompressor() {
             {outs.map((o) => {
               const pct = Math.round((1 - o.blob.size / o.before) * 100);
               return (
-                <div key={o.name} className="flex flex-wrap items-center justify-between gap-3 rounded-lg px-4 py-3" style={{ background: "#0C0F22", border: "1px solid #1C2245" }}>
-                  <span className="text-sm text-pt-white break-all">{o.name}</span>
+                <div key={o.name} className="flex flex-wrap items-center justify-between gap-3 rounded-lg px-4 py-3" style={{ background: "#0C0D22", border: "1px solid #1F2244" }}>
+                  <span className="text-sm text-[#E8EAF6] break-all">{o.name}</span>
                   <span className="text-sm" style={{ color: pct > 0 ? "#34D399" : "#FBBF24" }}>{formatBytes(o.before)} → {formatBytes(o.blob.size)} ({pct > 0 ? `-${pct}%` : "larger, try JPG or lower quality"})</span>
                   <Button secondary onClick={() => download(o.blob, o.name)}>Download</Button>
                 </div>

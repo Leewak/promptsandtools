@@ -36,10 +36,10 @@ export default function PasswordGenerator() {
   return (
     <Panel>
       <div className="flex flex-col gap-5">
-        <div className="rounded-xl px-4 py-4 font-mono text-lg break-all text-pt-white" style={{ background: "#0C0F22", border: "1px solid #2A3366" }}>{pw || "Pick at least one character type"}</div>
+        <div className="rounded-xl px-4 py-4 font-mono text-lg break-all text-[#E8EAF6]" style={{ background: "#0C0D22", border: "1px solid #2A2E55" }}>{pw || "Pick at least one character type"}</div>
         <Note tone={bits >= 70 ? "ok" : "info"}>{label} · about {bits} bits of entropy</Note>
         <Field label={`Length: ${len}`}><input type="range" min={8} max={64} value={len} onChange={(e) => setLen(Number(e.target.value))} /></Field>
-        <div className="flex flex-wrap gap-4 text-sm" style={{ color: "#C7D2FE" }}>
+        <div className="flex flex-wrap gap-4 text-sm" style={{ color: "#C9CCE8" }}>
           {(Object.keys(SETS) as (keyof typeof SETS)[]).map((k) => (
             <label key={k} className="flex items-center gap-2"><input type="checkbox" checked={opts[k]} onChange={(e) => setOpts({ ...opts, [k]: e.target.checked })} />{k === "lower" ? "a–z" : k === "upper" ? "A–Z" : k === "digits" ? "0–9" : "Symbols"}</label>
           ))}

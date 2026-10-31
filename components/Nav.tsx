@@ -1,93 +1,41 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useEffect } from "react";
-import { categories } from "@/lib/posts";
+import { useState } from "react";
+import { Logo } from "./Logo";
+
+const LINKS = [
+  { label: "PDF", href: "/tools#pdf" },
+  { label: "Image", href: "/tools#image" },
+  { label: "Passport photos", href: "/tools/passport-photo" },
+  { label: "Utilities", href: "/tools#utilities" },
+  { label: "Guides", href: "/blog" },
+];
 
 export function Nav() {
-  const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
-
-  useEffect(() => {
-    const handler = () => setScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", handler);
-    return () => window.removeEventListener("scroll", handler);
-  }, []);
-
   return (
-    <header
-      className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
-      style={{
-        background: scrolled ? "rgba(8,11,24,0.92)" : "transparent",
-        backdropFilter: scrolled ? "blur(12px)" : "none",
-        borderBottom: scrolled ? "1px solid rgba(28,34,69,0.8)" : "1px solid transparent",
-      }}
-    >
-      <nav className="max-w-6xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between">
-        {/* Logo */}
-        <Link href="/" className="font-bold text-pt-white" style={{ fontFamily: "var(--font-space-grotesk)", fontSize: "1rem", letterSpacing: "-0.02em" }}>
-          Prompts<span style={{ color: "#3B82F6" }}>&</span>Tools
-        </Link>
-
-        {/* Desktop nav */}
-        <div className="hidden md:flex items-center gap-6">
-          <Link href="/tools" className="text-sm font-semibold transition-colors duration-200" style={{ fontFamily: "var(--font-space-grotesk)", color: "#22D3EE" }}>
-            Free Tools
-          </Link>
-          {categories.slice(0, 3).map((cat) => (
-            <Link
-              key={cat.slug}
-              href={`/category/${cat.slug}`}
-              className="text-sm text-pt-gray hover:text-pt-white transition-colors duration-200"
-              style={{ fontFamily: "var(--font-space-grotesk)" }}
-            >
-              {cat.label}
-            </Link>
+    <header className="sticky top-0 z-50" style={{ background: "rgba(10,11,26,0.86)", backdropFilter: "blur(10px)", borderBottom: "1px solid #1C1E3A" }}>
+      <nav className="max-w-[1200px] mx-auto px-6 py-4 flex items-center gap-8">
+        <Logo />
+        <div className="hidden md:flex items-center gap-6 flex-1">
+          {LINKS.map((l) => (
+            <Link key={l.label} href={l.href} className="text-[15px] transition-colors hover:text-white" style={{ color: "#C9CCE8" }}>{l.label}</Link>
           ))}
         </div>
-
-        {/* CTA */}
-        <div className="hidden md:flex items-center gap-3">
-          <Link
-            href="/blog"
-            className="text-sm text-pt-gray hover:text-pt-white transition-colors"
-            style={{ fontFamily: "var(--font-space-grotesk)" }}
-          >
-            All Articles
-          </Link>
-          <Link
-            href="/newsletter"
-            className="text-sm font-semibold px-4 py-2 rounded-lg transition-all duration-200"
-            style={{
-              background: "rgba(59,130,246,0.15)",
-              border: "1px solid rgba(59,130,246,0.35)",
-              color: "#60A5FA",
-              fontFamily: "var(--font-space-grotesk)",
-            }}
-          >
-            Newsletter
-          </Link>
-        </div>
-
-        {/* Mobile burger */}
-        <button className="md:hidden p-2 text-pt-gray" onClick={() => setOpen(!open)}>
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            {open ? <><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></> : <><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></>}
+        <span className="hidden md:inline-flex items-center gap-2 text-xs px-3 py-[7px] rounded-lg ml-auto"
+          style={{ fontFamily: "var(--font-mono)", color: "#34D399", border: "1px solid #1E4A3C", background: "rgba(52,211,153,0.06)" }}>
+          <span className="w-1.5 h-1.5 rounded-full" style={{ background: "#34D399" }} /> NO UPLOADS
+        </span>
+        <button className="md:hidden ml-auto p-2" style={{ color: "#C9CCE8" }} onClick={() => setOpen(!open)} aria-label="Menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+            {open ? <><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></> : <><line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" /></>}
           </svg>
         </button>
       </nav>
-
-      {/* Mobile menu */}
       {open && (
-        <div className="md:hidden px-5 pb-5 pt-2 flex flex-col gap-3 border-t" style={{ background: "rgba(8,11,24,0.97)", borderColor: "#1C2245" }}>
-          <Link href="/tools" className="text-sm py-1 font-semibold" style={{ color: "#22D3EE" }} onClick={() => setOpen(false)}>Free Tools</Link>
-          {categories.map((cat) => (
-            <Link key={cat.slug} href={`/category/${cat.slug}`} className="text-pt-gray text-sm py-1" onClick={() => setOpen(false)}>
-              {cat.label}
-            </Link>
-          ))}
-          <Link href="/blog" className="text-pt-gray text-sm py-1" onClick={() => setOpen(false)}>All Articles</Link>
-          <Link href="/newsletter" className="text-pt-blue text-sm py-1 font-semibold" onClick={() => setOpen(false)}>Newsletter</Link>
+        <div className="md:hidden px-6 pb-5 flex flex-col gap-3" style={{ borderTop: "1px solid #1C1E3A" }}>
+          {LINKS.map((l) => <Link key={l.label} href={l.href} className="pt-3 text-[15px]" style={{ color: "#C9CCE8" }} onClick={() => setOpen(false)}>{l.label}</Link>)}
         </div>
       )}
     </header>

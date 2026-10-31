@@ -46,10 +46,10 @@ export default function SignatureResizer() {
   return (
     <Panel>
       <div className="flex flex-col gap-5">
-        <Drop accept="image/*" label={file ? `Selected: ${file.name}` : "Choose a photo or scan of your signature (dark ink on white paper)"} onFiles={(f) => { setFile(f[0] ?? null); setResult(null); }} />
+        <Drop button="Choose image" accept="image/*" label={file ? `Selected: ${file.name}` : "Drop a photo of your signature"} onFiles={(f) => { setFile(f[0] ?? null); setResult(null); }} />
         <div className="flex flex-wrap gap-2">
           {PRESETS.map((p) => (
-            <button key={p.label} type="button" onClick={() => { setW(p.w); setH(p.h); setKb(p.kb); }} className="px-3 py-1.5 rounded-lg text-sm" style={{ border: "1px solid #2A3366", color: "#C7D2FE" }}>{p.label}</button>
+            <button key={p.label} type="button" onClick={() => { setW(p.w); setH(p.h); setKb(p.kb); }} className="px-3 py-1.5 rounded-lg text-sm" style={{ border: "1px solid #2A2E55", color: "#C9CCE8" }}>{p.label}</button>
           ))}
         </div>
         <div className="grid grid-cols-3 gap-4">
@@ -57,13 +57,13 @@ export default function SignatureResizer() {
           <Field label="Height (px)"><input type="number" value={h} onChange={(e) => setH(Number(e.target.value) || 1)} className={inputCls} style={inputStyle} /></Field>
           <Field label="Max KB"><input type="number" value={kb} onChange={(e) => setKb(Number(e.target.value) || 1)} className={inputCls} style={inputStyle} /></Field>
         </div>
-        <label className="flex items-center gap-2 text-sm" style={{ color: "#C7D2FE" }}><input type="checkbox" checked={clean} onChange={(e) => setClean(e.target.checked)} /> Clean background to pure white</label>
+        <label className="flex items-center gap-2 text-sm" style={{ color: "#C9CCE8" }}><input type="checkbox" checked={clean} onChange={(e) => setClean(e.target.checked)} /> Clean background to pure white</label>
         <div><Button onClick={run} disabled={!file}>Resize signature</Button></div>
         {error && <Note tone="error">{error}</Note>}
         {result && (
           <div className="flex flex-wrap items-center gap-5">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={result.url} alt="Resized signature" className="rounded bg-white" style={{ border: "1px solid #2A3366" }} />
+            <img src={result.url} alt="Resized signature" className="rounded bg-white" style={{ border: "1px solid #2A2E55" }} />
             <Note tone="ok">{w}×{h} px · {formatBytes(result.blob.size)}</Note>
             <Button onClick={() => download(result.blob, `signature-${w}x${h}.jpg`)}>Download JPG</Button>
           </div>
