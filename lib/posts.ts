@@ -2084,6 +2084,35 @@ export const posts: Post[] = [
       { h2: "Build a watchlist with AI", paras: ["Ask the AI to turn your favourites into a reusable profile: 'Summarise my taste in 5 bullet points I can paste into future chats.' Paste that summary at the start of each new conversation and your recommendations get sharper every time."], image: { src: "https://images.pexels.com/photos/39492347/pexels-photo-39492347.png?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Modern 3D render of interconnected geometric cubes in a futuristic abstract design.", caption: "Photo by Santhosh Kanthala on Pexels" } },
     ],
   },
+  {
+    slug: "ai-prompts-customer-service-replies",
+    title: "AI Prompts for Customer Service: Personalized Replies That Don't Sound Robotic",
+    excerpt: "Copy-paste AI prompts for customer service teams: personalized replies, tone control, refunds, complaints and FAQ drafts with ChatGPT or Claude.",
+    category: "prompts",
+    tags: ["customer service", "ai prompts", "chatgpt", "claude", "small business"],
+    date: "2026-10-31",
+    readTime: 3,
+    coverColor: "#1E3A8A",
+    author: "Prompts & Tools Editorial",
+    wordCount: 169,
+    quickAnswer: "Good customer service prompts give the AI your brand voice, the customer's actual message, the facts of the case and the outcome you want, then ask for a short, warm reply. Always have a person check the facts, refunds and promises before sending.",
+    faq: [
+      { q: "Can I use ChatGPT for customer service replies?", a: "Yes, as a drafting tool. Give it your tone and the facts, then review and personalise every reply before sending." },
+      { q: "How do I make AI replies sound less robotic?", a: "Give it a short brand voice brief, ban stock phrases, and ask for a specific word limit and one clear next step." },
+      { q: "Is it safe to paste customer data into AI tools?", a: "Remove sensitive details where possible and only use tools approved for handling customer data." },
+    ],
+    affiliates: [
+      { name: "Claude", url: "https://claude.ai", cta: "Try Claude \u2192", badge: "Great for Tone" },{ name: "Zendesk", url: "https://www.zendesk.com", cta: "See Zendesk AI \u2192" },
+    ],
+    heroImage: { src: "https://images.pexels.com/photos/30530407/pexels-photo-30530407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up of an AI-driven chat interface on a computer screen, showcasing modern AI technology.", caption: "Photo by Matheus Bertelli on Pexels" },
+    sections: [
+      { h2: "Why generic AI replies backfire", paras: ["Customers can tell when a reply is a template. Generic AI text apologises vaguely, repeats the question and promises nothing specific, which often makes an annoyed customer angrier.", "The fix is to give the model context: who you are, how you talk, what happened and what you can actually offer."], image: { src: "https://images.pexels.com/photos/18548430/pexels-photo-18548430.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up of a typewriter with the word Deepfake typed on paper. Concept of technology and media.", caption: "Photo by Markus Winkler on Pexels" } },
+      { h2: "Set up your brand voice once", paras: ["Save a short voice brief and paste it at the start of every session, or store it as custom instructions."], list: ["Prompt: You are a customer service agent for [business], which sells [product]. Our tone is friendly, direct and human. Use short sentences, the customer's name, and no corporate phrases like 'we apologise for any inconvenience'. Never promise refunds, discounts or dates unless I give them to you."] },
+      { h2: "Core reply prompts", paras: ["Use these with the customer's message pasted in, with personal data removed where you can."], list: ["Personalized reply: Here is a customer message: [paste]. Facts: [order status, policy]. Write a reply under 120 words that answers their exact question and ends with one clear next step.", "Angry customer: This customer is frustrated: [paste]. Acknowledge the specific problem in the first sentence, explain what we will do, and avoid defensive language.", "Refund within policy: Draft a reply confirming a refund of [amount] for [reason], processed in [timeframe].", "Saying no kindly: Our policy does not allow [request]. Write a warm reply that explains why and offers [alternative].", "Follow-up: Write a short check-in for a customer whose issue was resolved [X] days ago."], image: { src: "https://images.pexels.com/photos/30530407/pexels-photo-30530407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up of an AI-driven chat interface on a computer screen, showcasing modern AI technology.", caption: "Photo by Matheus Bertelli on Pexels" } },
+      { h2: "Turn tickets into FAQ and macros", paras: ["Paste ten recent questions (anonymised) and ask: 'Group these into themes and draft a clear FAQ answer for each.' Then turn the best replies into saved macros in your help desk so the whole team benefits.", "Review AI-drafted FAQs against your real policies before publishing them."] },
+      { h2: "Rules for using AI safely in support", paras: ["AI drafts, people decide. Check every fact, amount and date, and never let the model invent policies. Avoid pasting payment details, passwords or sensitive personal data into general chatbots; use tools your business has approved for customer data."], image: { src: "https://images.pexels.com/photos/35548889/pexels-photo-35548889.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Multiple no left turn traffic signs displayed together under a blue sky.", caption: "Photo by Adem Percem on Pexels" } },
+    ],
+  },
 ];
 
 // Extra photos (Pexels) picked by blog-farm/scripts/section_images.py: cover (fills a missing one or replaces a duplicate) + in-article images.
