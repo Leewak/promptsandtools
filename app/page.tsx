@@ -3,10 +3,11 @@ import { PostCard } from "@/components/PostCard";
 import { posts, getFeaturedPosts, categories } from "@/lib/posts";
 import type { Metadata } from "next";
 import { AdsterraInline, AdsterraNative } from "@/components/Adsterra";
+import { tools } from "@/lib/tools";
 
 export const metadata: Metadata = {
-  title: "Prompts & Tools — The Practical Guide to AI Tools for Real Work",
-  description: "Honest reviews, comparisons, and how-to guides for AI tools that actually help you work smarter. No hype, just results.",
+  title: "Prompts & Tools: Free Online Tools (PDF, Image, Passport Photo) and AI Guides",
+  description: "Free tools that run in your browser: compress PDF to 200KB, resize images to KB, passport photos, JPG to PDF, QR codes. Plus practical AI tool guides.",
 };
 
 export default function HomePage() {
@@ -26,41 +27,59 @@ export default function HomePage() {
           <div className="inline-flex items-center gap-2 mb-8 px-3 py-1.5 rounded-full text-xs font-mono"
             style={{ border: "1px solid rgba(59,130,246,0.3)", background: "rgba(59,130,246,0.08)", color: "#60A5FA" }}>
             <span className="w-1.5 h-1.5 rounded-full bg-pt-cyan" style={{ background: "#22D3EE" }} />
-            Updated weekly — AI tools that actually work
+            Free tools · No sign-up · Files stay on your device
           </div>
 
           <h1 className="text-[clamp(2.5rem,6vw,4.5rem)] font-bold leading-[1.1] mb-6"
             style={{ fontFamily: "var(--font-space-grotesk)", color: "#F0F4FF", letterSpacing: "-0.03em" }}>
-            The Practical Guide to{" "}
-            <span className="text-gradient">AI Tools</span>
+            Free online tools that{" "}
+            <span className="text-gradient">just work</span>
           </h1>
 
           <p className="text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10" style={{ color: "#6B7DB8" }}>
-            No hype. No fluff. Honest reviews, tested prompts, and step-by-step guides for AI tools that help you work smarter.
+            Compress a PDF to 200 KB, resize a photo to 50 KB, make a passport photo or a QR code in seconds. Plus practical guides to AI tools.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link href="/blog"
+            <Link href="/tools"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:scale-[1.02]"
               style={{ background: "#3B82F6", color: "#fff", fontFamily: "var(--font-space-grotesk)", boxShadow: "0 0 30px rgba(59,130,246,0.3)" }}>
-              Browse All Articles
+              Open the free tools
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M5 12h14M12 5l7 7-7 7"/>
               </svg>
             </Link>
-            <Link href="/category/comparisons"
+            <Link href="/blog"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:text-white hover:border-white/20"
               style={{ border: "1px solid #1C2245", color: "#6B7DB8", fontFamily: "var(--font-space-grotesk)" }}>
-              Tool Comparisons
+              Read the AI guides
             </Link>
           </div>
 
           <div className="flex flex-wrap justify-center gap-10 mt-16">
-            {[["50+", "Tools Reviewed"], ["100K+", "Monthly Readers"], ["Weekly", "Updated"]].map(([num, label]) => (
+            {[[String(tools.length), "Free tools"], ["0", "Files uploaded"], ["No", "Sign-up needed"]].map(([num, label]) => (
               <div key={label} className="text-center">
                 <div className="text-2xl font-bold mb-0.5" style={{ fontFamily: "var(--font-space-grotesk)", color: "#3B82F6" }}>{num}</div>
                 <div className="text-xs" style={{ color: "#4A5580" }}>{label}</div>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Free tools */}
+      <section className="pb-12">
+        <div className="max-w-6xl mx-auto px-5 sm:px-8">
+          <div className="flex items-end justify-between mb-6">
+            <h2 className="text-2xl font-bold text-pt-white" style={{ fontFamily: "var(--font-space-grotesk)" }}>Popular free tools</h2>
+            <Link href="/tools" className="text-sm" style={{ color: "#60A5FA" }}>All tools →</Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {tools.slice(0, 8).map((t) => (
+              <Link key={t.slug} href={`/tools/${t.slug}`} className="rounded-2xl p-5 transition-colors hover:border-blue-500" style={{ background: "#10142A", border: "1px solid #1C2245" }}>
+                <h3 className="font-semibold text-pt-white mb-1.5 text-sm" style={{ fontFamily: "var(--font-space-grotesk)" }}>{t.name}</h3>
+                <p className="text-xs leading-relaxed line-clamp-3" style={{ color: "#6B7DB8" }}>{t.intro}</p>
+              </Link>
             ))}
           </div>
         </div>

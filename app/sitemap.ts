@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { posts, categories } from "@/lib/posts";
+import { tools } from "@/lib/tools";
 
 const BASE = "https://promptsandtools.online";
 
@@ -20,6 +21,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE, lastModified: new Date(), changeFrequency: "weekly", priority: 1 },
     { url: `${BASE}/blog`, lastModified: new Date(), changeFrequency: "daily", priority: 0.9 },
     { url: `${BASE}/newsletter`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.5 },
+    { url: `${BASE}/tools`, lastModified: new Date(), changeFrequency: "weekly", priority: 1 },
+    ...tools.map((t) => ({ url: `${BASE}/tools/${t.slug}`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.95 })),
     ...postUrls,
     ...catUrls,
   ];

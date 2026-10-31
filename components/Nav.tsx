@@ -31,7 +31,10 @@ export function Nav() {
 
         {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-6">
-          {categories.slice(0, 4).map((cat) => (
+          <Link href="/tools" className="text-sm font-semibold transition-colors duration-200" style={{ fontFamily: "var(--font-space-grotesk)", color: "#22D3EE" }}>
+            Free Tools
+          </Link>
+          {categories.slice(0, 3).map((cat) => (
             <Link
               key={cat.slug}
               href={`/category/${cat.slug}`}
@@ -77,6 +80,7 @@ export function Nav() {
       {/* Mobile menu */}
       {open && (
         <div className="md:hidden px-5 pb-5 pt-2 flex flex-col gap-3 border-t" style={{ background: "rgba(8,11,24,0.97)", borderColor: "#1C2245" }}>
+          <Link href="/tools" className="text-sm py-1 font-semibold" style={{ color: "#22D3EE" }} onClick={() => setOpen(false)}>Free Tools</Link>
           {categories.map((cat) => (
             <Link key={cat.slug} href={`/category/${cat.slug}`} className="text-pt-gray text-sm py-1" onClick={() => setOpen(false)}>
               {cat.label}
