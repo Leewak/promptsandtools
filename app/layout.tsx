@@ -26,6 +26,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable} ${mono.variable}`}>
       <head>
+        {/* Google Analytics 4 (G-W734225SHP) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W734225SHP" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-W734225SHP');`,
+          }}
+        />
       </head>
       <body className="min-h-screen flex flex-col antialiased" style={{ background: "#0A0B1A", color: "#E8EAF6", fontFamily: "var(--font-space-grotesk)" }}>
         <Nav />
