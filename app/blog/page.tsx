@@ -2,6 +2,7 @@ import { PostCard } from "@/components/PostCard";
 import { posts, categories } from "@/lib/posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AdsterraInline, AdsterraNative } from "@/components/Adsterra";
 
 export const metadata: Metadata = {
   title: "All Articles — AI Tools, Prompts & Automation Guides",
@@ -39,11 +40,13 @@ export default function BlogPage() {
         </div>
 
         {/* Post grid */}
+        <AdsterraInline className="mb-8" />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {posts.map((post) => (
             <PostCard key={post.slug} post={post} />
           ))}
         </div>
+        <AdsterraNative className="mt-12" />
       </div>
     </div>
   );

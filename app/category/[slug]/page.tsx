@@ -3,6 +3,7 @@ import { PostCard } from "@/components/PostCard";
 import { categories, getPostsByCategory } from "@/lib/posts";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { AdsterraInline, AdsterraNative } from "@/components/Adsterra";
 
 export async function generateStaticParams() {
   return categories.map((c) => ({ slug: c.slug }));
@@ -44,6 +45,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
           <p className="mt-2 text-sm" style={{ color: "#4A5580" }}>{catPosts.length} articles</p>
         </div>
 
+        <AdsterraInline className="mb-8" />
         {catPosts.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {catPosts.map((post) => (
@@ -55,6 +57,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
             No articles in this category yet. Check back soon.
           </div>
         )}
+        <AdsterraNative className="mt-12" />
       </div>
     </div>
   );

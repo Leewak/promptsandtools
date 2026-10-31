@@ -2,6 +2,7 @@ import Link from "next/link";
 import { PostCard } from "@/components/PostCard";
 import { posts, getFeaturedPosts, categories } from "@/lib/posts";
 import type { Metadata } from "next";
+import { AdsterraInline, AdsterraNative } from "@/components/Adsterra";
 
 export const metadata: Metadata = {
   title: "Prompts & Tools — The Practical Guide to AI Tools for Real Work",
@@ -80,6 +81,8 @@ export default function HomePage() {
         </div>
       </section>
 
+      <div className="px-5"><AdsterraInline className="my-8" /></div>
+
       {/* Featured */}
       <section className="py-12">
         <div className="max-w-6xl mx-auto px-5 sm:px-8">
@@ -97,6 +100,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <div className="px-5"><AdsterraInline className="my-8" /></div>
 
       {/* Latest */}
       <section className="py-12 pb-20" style={{ borderTop: "1px solid #0F1325" }}>
@@ -133,6 +138,7 @@ export default function HomePage() {
           </form>
         </div>
       </section>
+      <div className="px-5 max-w-5xl mx-auto"><AdsterraNative className="my-10" /></div>
     </>
   );
 }
