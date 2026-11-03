@@ -5,7 +5,7 @@ import { useState, type ReactNode } from "react";
 import { cardTools, categoryColor, type ToolCategory } from "@/lib/tools";
 import { ToolIcon } from "./ToolIcon";
 
-const CATS: ("All" | ToolCategory)[] = ["All", "PDF", "Image", "Photo ID", "Utilities"];
+const CATS: ("All" | ToolCategory)[] = ["All", "PDF", "Image", "Photo ID", "Utilities", "Text", "Developer"];
 
 export function ToolCard({ t, num }: { t: (typeof cardTools)[number]; num: number }) {
   const color = categoryColor[t.category];

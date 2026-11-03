@@ -1,10 +1,11 @@
 import { MEDIA_TOOLS, type MediaKind } from "./tools-media";
+import { TEXTDEV_TOOLS, type TextDevKind } from "./tools-textdev";
 
 // Free browser-based tools. Each entry drives a tool page: metadata, guide, FAQ, JSON-LD and the interactive component.
 // Size variants (PDF 100/200/500 KB, photo 20/50/100 KB) and passport countries get their own indexable URLs.
 
-export type ToolCategory = "PDF" | "Image" | "Photo ID" | "Utilities";
-export type ToolKind = "compress-pdf" | "resize-image-kb" | "passport-photo" | "signature-resizer" | "image-to-pdf" | "image-compressor" | "qr-code-generator" | "word-counter" | "password-generator" | "json-formatter" | MediaKind;
+export type ToolCategory = "PDF" | "Image" | "Photo ID" | "Utilities" | "Text" | "Developer";
+export type ToolKind = "compress-pdf" | "resize-image-kb" | "passport-photo" | "signature-resizer" | "image-to-pdf" | "image-compressor" | "qr-code-generator" | "word-counter" | "password-generator" | "json-formatter" | MediaKind | TextDevKind;
 
 export interface ToolDef {
   slug: string; // path after /tools/
@@ -27,8 +28,8 @@ export interface ToolDef {
   props?: Record<string, string | number>;
 }
 
-export const categoryColor: Record<ToolCategory, string> = { PDF: "#60A5FA", Image: "#22D3EE", "Photo ID": "#A78BFA", Utilities: "#FBBF24" };
-export const categoryAnchor: Record<ToolCategory, string> = { PDF: "pdf", Image: "image", "Photo ID": "photo-id", Utilities: "utilities" };
+export const categoryColor: Record<ToolCategory, string> = { PDF: "#60A5FA", Image: "#22D3EE", "Photo ID": "#A78BFA", Utilities: "#FBBF24", Text: "#F472B6", Developer: "#34D399" };
+export const categoryAnchor: Record<ToolCategory, string> = { PDF: "pdf", Image: "image", "Photo ID": "photo-id", Utilities: "utilities", Text: "text", Developer: "developer" };
 
 const T = (n: string) => `${n} | Prompts&Tools`;
 
@@ -241,7 +242,7 @@ const base: ToolDef[] = [
 ];
 
 /** Every flat /tools/[slug] page (passport countries live under /tools/passport-photo/[country]). */
-export const tools = [...base, ...MEDIA_TOOLS];
+export const tools = [...base, ...MEDIA_TOOLS, ...TEXTDEV_TOOLS];
 export const cardTools = tools.filter((t) => t.card);
 export const getTool = (slug: string) => tools.find((t) => t.slug === slug) ?? (slug.startsWith("passport-photo/") ? passportFor(slug.split("/")[1]) : undefined);
 export const allToolPaths = [...tools.map((t) => t.slug), ...PASSPORT_COUNTRIES.map((c) => `passport-photo/${c.id}`)];
