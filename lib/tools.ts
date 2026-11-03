@@ -1,8 +1,10 @@
+import { MEDIA_TOOLS, type MediaKind } from "./tools-media";
+
 // Free browser-based tools. Each entry drives a tool page: metadata, guide, FAQ, JSON-LD and the interactive component.
 // Size variants (PDF 100/200/500 KB, photo 20/50/100 KB) and passport countries get their own indexable URLs.
 
 export type ToolCategory = "PDF" | "Image" | "Photo ID" | "Utilities";
-export type ToolKind = "compress-pdf" | "resize-image-kb" | "passport-photo" | "signature-resizer" | "image-to-pdf" | "image-compressor" | "qr-code-generator" | "word-counter" | "password-generator" | "json-formatter";
+export type ToolKind = "compress-pdf" | "resize-image-kb" | "passport-photo" | "signature-resizer" | "image-to-pdf" | "image-compressor" | "qr-code-generator" | "word-counter" | "password-generator" | "json-formatter" | MediaKind;
 
 export interface ToolDef {
   slug: string; // path after /tools/
@@ -239,7 +241,7 @@ const base: ToolDef[] = [
 ];
 
 /** Every flat /tools/[slug] page (passport countries live under /tools/passport-photo/[country]). */
-export const tools = base;
-export const cardTools = base.filter((t) => t.card);
-export const getTool = (slug: string) => base.find((t) => t.slug === slug) ?? (slug.startsWith("passport-photo/") ? passportFor(slug.split("/")[1]) : undefined);
-export const allToolPaths = [...base.map((t) => t.slug), ...PASSPORT_COUNTRIES.map((c) => `passport-photo/${c.id}`)];
+export const tools = [...base, ...MEDIA_TOOLS];
+export const cardTools = tools.filter((t) => t.card);
+export const getTool = (slug: string) => tools.find((t) => t.slug === slug) ?? (slug.startsWith("passport-photo/") ? passportFor(slug.split("/")[1]) : undefined);
+export const allToolPaths = [...tools.map((t) => t.slug), ...PASSPORT_COUNTRIES.map((c) => `passport-photo/${c.id}`)];

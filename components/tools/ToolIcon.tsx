@@ -1,5 +1,6 @@
 import { Braces, FileDown, FileImage, ImageDown, KeyRound, PenLine, QrCode, Scaling, Type, UserSquare2, type LucideIcon } from "lucide-react";
 import type { ToolKind } from "@/lib/tools";
+import { MEDIA_ICONS } from "./media/icons";
 
 const ICONS: Record<ToolKind, LucideIcon> = {
   "compress-pdf": FileDown,
@@ -12,6 +13,7 @@ const ICONS: Record<ToolKind, LucideIcon> = {
   "word-counter": Type,
   "password-generator": KeyRound,
   "json-formatter": Braces,
+  ...MEDIA_ICONS,
 };
 
 /** Tinted icon tile in the tool's category colour. */
