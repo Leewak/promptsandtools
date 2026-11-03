@@ -2113,6 +2113,2411 @@ export const posts: Post[] = [
       { h2: "Rules for using AI safely in support", paras: ["AI drafts, people decide. Check every fact, amount and date, and never let the model invent policies. Avoid pasting payment details, passwords or sensitive personal data into general chatbots; use tools your business has approved for customer data."], image: { src: "https://images.pexels.com/photos/35548889/pexels-photo-35548889.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Multiple no left turn traffic signs displayed together under a blue sky.", caption: "Photo by Adem Percem on Pexels" } },
     ],
   },
+  {
+    "slug": "how-to-compress-pdf-for-email",
+    "title": "How to Compress a PDF for Email (Free, Without Installing Anything)",
+    "excerpt": "Email bounced because the PDF is too big? Here is how to shrink a PDF to fit attachment limits, what actually makes PDFs large, and what to do when it still will not fit.",
+    "category": "tutorials",
+    "tags": [
+      "compress pdf",
+      "pdf size",
+      "email attachment",
+      "free tools"
+    ],
+    "date": "2026-11-01",
+    "readTime": 6,
+    "coverColor": "#78350F",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 931,
+    "quickAnswer": "To compress a PDF for email, open a browser-based compressor such as the free [Compress PDF tool](/tools/compress-pdf-to-500kb), pick a target size (for example 500 KB), add the file and download the smaller version. Scanned and image-heavy PDFs shrink the most; if it is still too large, split the document or share a download link instead.",
+    "faq": [
+      {
+        "q": "What size PDF can I attach to an email?",
+        "a": "It depends on the provider. Many mail services cap the total attachment size at roughly 20-25 MB, but the limit differs between providers and some company servers are stricter. Check your provider's help page for the current number."
+      },
+      {
+        "q": "Why is my PDF so large?",
+        "a": "Usually because it contains high-resolution images, such as scanned pages or photos. Text-only PDFs are typically small."
+      },
+      {
+        "q": "Will compressing a PDF reduce quality?",
+        "a": "Usually a little. Image-heavy pages are re-encoded at lower quality to save space, so check that text and stamps are still readable before sending."
+      },
+      {
+        "q": "Is it safe to compress a confidential PDF online?",
+        "a": "It depends on the tool. Our compressor runs in your browser so the file is not uploaded, but with any other service read the privacy policy first."
+      },
+      {
+        "q": "What if the PDF still will not fit?",
+        "a": "Split it into parts, remove unneeded pages, or upload it to a cloud drive and send a share link."
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/7439136/pexels-photo-7439136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "A person typing on a laptop in a bright, modern office setting, showing productivity and technology.",
+      "caption": "Photo by cottonbro studio on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "Why PDFs get so big",
+        "paras": [
+          "A PDF is a container. Plain text takes very little room, but every embedded image, scanned page or high-resolution logo adds weight. A ten-page contract typed in a word processor may be a few hundred kilobytes, while the same contract printed and scanned at high resolution can run into many megabytes.",
+          "Knowing this helps you pick the right fix. If the file is mostly scans, compressing the images is what matters. If it is a long text document with a few heavy photos, shrinking those photos before export may be easier."
+        ]
+      },
+      {
+        "h2": "Step 1: Know your limit",
+        "paras": [
+          "Before compressing, find out what you need to hit. Most mail providers publish a maximum attachment size, and recipients' servers may have their own, lower limits. If you do not know, aim for a comfortable margin rather than the maximum.",
+          "A practical habit is to target well under the stated limit, because encoding for email adds some overhead and a rejected message wastes everyone's time."
+        ]
+      },
+      {
+        "h2": "Step 2: Compress in your browser",
+        "paras": [
+          "Open the [Compress PDF to 500 KB](/tools/compress-pdf-to-500kb) tool, or choose a smaller target like [200 KB](/tools/compress-pdf-to-200kb) or [100 KB](/tools/compress-pdf-to-100kb) if the recipient is strict. Add your file, let it process, and check the final size shown before you download.",
+          "Because the work happens in your browser, nothing is sent to a server, which matters for ID copies, contracts and financial documents."
+        ],
+        "list": [
+          "Pick the target size that matches your limit.",
+          "Add the PDF and wait for the size reduction to finish.",
+          "Download the result and note the new file size.",
+          "Open it and scroll through every page before attaching."
+        ]
+      },
+      {
+        "h2": "Step 3: Check the result",
+        "paras": [
+          "Aggressive compression can soften small print, stamps and signatures. Zoom in on the parts that matter, such as figures, dates and signatures, to confirm they are still legible.",
+          "If something looks too blurry, retry with a higher target size. A slightly bigger file that is readable beats a tiny one nobody can use."
+        ]
+      },
+      {
+        "h2": "When compression is not enough",
+        "paras": [
+          "Some documents simply will not shrink enough, especially long scans. In that case you have options: split the PDF into two or three parts, delete pages the recipient does not need, or scan again at a lower resolution if you still have the paper original.",
+          "Another option is to skip the attachment altogether. Upload the file to a cloud drive and email the link, setting access so only the intended person can open it."
+        ]
+      },
+      {
+        "h2": "Turning images into a smaller PDF",
+        "paras": [
+          "If your PDF started life as photos, it can be cheaper to prepare the images first. Run them through the [image compressor](/tools/image-compressor) and then combine them with the [image to PDF](/tools/image-to-pdf) tool. You control the quality of each image instead of leaving it to a one-size-fits-all setting."
+        ]
+      },
+      {
+        "h2": "Ways to avoid big PDFs in the first place",
+        "paras": [
+          "Prevention is easier than repair. When you create a document from a word processor or slide deck, use the export-to-PDF option rather than printing to PDF at maximum quality, and compress large pictures before you insert them. A logo or photo pasted at full camera resolution can add megabytes that nobody will ever see on screen.",
+          "If you scan regularly, set your scanner or scanning app to grayscale for text documents and a moderate resolution. Many scanning apps have a 'document' mode that produces much smaller files than a 'photo' mode, and the text stays perfectly legible. Setting this once saves effort on every future scan.",
+          "Finally, keep the editable original. A PDF is meant for sharing, not editing, and being able to regenerate it from the source at a lower image quality is often the cleanest way to get a small file."
+        ]
+      },
+      {
+        "h2": "Choosing between compress, split and share link",
+        "paras": [
+          "Each option fits a different situation. Compress when the recipient needs a single file and the quality loss is acceptable, for example an invoice or a signed form. Split when the document is long and the recipient can handle several attachments, such as a report with separate appendices. Use a share link when the file is large for a good reason, for example a portfolio or a high-resolution brochure that should not be degraded.",
+          "If you are sending something sensitive, think about the channel as well as the size. Many cloud drives let you set an expiry date and require sign-in, which is safer than leaving a big attachment sitting in someone's inbox forever."
+        ],
+        "list": [
+          "Compress: single file, quality loss acceptable.",
+          "Split: long document, several attachments are fine.",
+          "Share link: large file that should stay at full quality.",
+          "Password or expiry: sensitive documents."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "compress-pdf-to-100kb-job-application",
+    "title": "How to Compress a PDF to 100 KB for Job and Exam Portals",
+    "excerpt": "Application portals often demand a PDF under 100 KB. Learn how to shrink resumes, certificates and ID scans to that limit without making them unreadable.",
+    "category": "tutorials",
+    "tags": [
+      "compress pdf to 100kb",
+      "job application",
+      "exam form",
+      "upload limit"
+    ],
+    "date": "2026-11-01",
+    "readTime": 6,
+    "coverColor": "#78350F",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 862,
+    "quickAnswer": "Use a browser-based compressor with a 100 KB target, such as the free [Compress PDF to 100 KB](/tools/compress-pdf-to-100kb) tool. Text-based resumes usually fit easily; scanned certificates may need a lower scan resolution, fewer pages or black-and-white scanning to reach the limit.",
+    "faq": [
+      {
+        "q": "Why do portals have such small file limits?",
+        "a": "Many were built years ago with limited storage and bandwidth, and they have to handle huge numbers of uploads. The limit is often enforced strictly, so check it before submitting."
+      },
+      {
+        "q": "Can a scanned certificate fit in 100 KB?",
+        "a": "A single clean page often can, especially in grayscale. Multi-page colour scans are harder and may need splitting into separate uploads if the form allows it."
+      },
+      {
+        "q": "Will the text still be selectable after compression?",
+        "a": "Not always. To reach strict limits, pages may be turned into compressed images, so text may no longer be searchable. Keep an original copy."
+      },
+      {
+        "q": "What is the difference between KB and MB?",
+        "a": "A megabyte is roughly one thousand kilobytes, so 100 KB is about a tenth of a megabyte."
+      },
+      {
+        "q": "What if the portal rejects my file anyway?",
+        "a": "Check the accepted format and any page or name rules, then try a slightly smaller target such as 90 KB to leave a margin."
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/5668869/pexels-photo-5668869.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "Crop young female unemployed job seeker filling questionnaire sitting at table during interview in office",
+      "caption": "Photo by Sora Shimazaki on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "What 100 KB really means",
+        "paras": [
+          "One hundred kilobytes is tiny. A typical phone photo is often several megabytes, and a scanned page at default settings can easily be a megabyte or more. Portals asking for 100 KB are asking you to cut the file by an order of magnitude or more.",
+          "The good news is that documents with mostly black text on white paper compress very well, so a clean, single-page resume often gets there with little effort."
+        ]
+      },
+      {
+        "h2": "Start with a clean source file",
+        "paras": [
+          "The best compression starts before you compress. If you have the resume as a word-processor file, export it straight to PDF rather than printing and scanning it. Text-based PDFs are small and stay sharp.",
+          "For paper documents, scan in grayscale or black and white at a moderate resolution. Colour and very high resolution make files large without making them more useful for a form that only needs to be readable."
+        ]
+      },
+      {
+        "h2": "Compress to 100 KB step by step",
+        "paras": [
+          "The process takes a couple of minutes with the [Compress PDF to 100 KB](/tools/compress-pdf-to-100kb) tool.",
+          "If the result is a bit over the limit, try again from the original rather than compressing a compressed file repeatedly, which tends to degrade quality faster."
+        ],
+        "list": [
+          "Open the compressor and select the 100 KB target.",
+          "Add your PDF.",
+          "Wait for the tool to lower quality step by step until it fits.",
+          "Check the size shown and download the file.",
+          "Open the download and zoom in to check that every page is readable."
+        ]
+      },
+      {
+        "h2": "If it still will not fit",
+        "paras": [
+          "Long multi-page scans are the usual problem. Consider these options in order: remove blank or unneeded pages, scan fewer documents per file, split the upload into parts if the portal accepts several files, or reduce scan resolution.",
+          "As a last resort, try a different target for a single stubborn file. Our tool also offers [200 KB](/tools/compress-pdf-to-200kb) and [500 KB](/tools/compress-pdf-to-500kb) if a portal turns out to be more flexible than its help text suggests."
+        ]
+      },
+      {
+        "h2": "Photos and signatures are separate",
+        "paras": [
+          "Many forms ask for a photo or a signature as separate image uploads, each with its own limit. For those, use [Resize Image to 50 KB](/tools/resize-image-to-50kb) or the [signature resizer](/tools/signature-resizer) rather than a PDF tool.",
+          "Keeping the right tool for each upload avoids the frustrating loop of re-exporting the wrong file type."
+        ]
+      },
+      {
+        "h2": "A realistic example workflow",
+        "paras": [
+          "Imagine you need to upload a resume, a degree certificate and an ID copy, each under 100 KB. The resume is easy: export it from your word processor as a PDF and it will probably already be small. For the certificate and ID, scan each in grayscale at a modest resolution, save as separate PDFs, and compress each one to 100 KB.",
+          "Name the files clearly, such as 'resume-jane-doe.pdf' and 'certificate-jane-doe.pdf'. Portals often show the file name to reviewers, and short, tidy names look professional and avoid problems with special characters."
+        ]
+      },
+      {
+        "h2": "Why quality drops and how much is acceptable",
+        "paras": [
+          "To hit a strict limit, a compressor lowers image quality step by step until the file fits. On a clean page of black text this is barely noticeable. On a photo-heavy page, such as an ID with a small portrait, you may see softer edges and blocky patches.",
+          "The test is simple: could a reviewer read every word and number without squinting? If yes, the file is fine. If numbers such as dates or ID digits are hard to read, go back to the original and try scanning at a slightly higher resolution before compressing again, or remove unneeded pages to free up room for the important ones.",
+          "Remember that the goal is to meet the portal's rule while keeping the document usable, not to make the smallest possible file."
+        ]
+      },
+      {
+        "h2": "Keeping your originals organised",
+        "paras": [
+          "Create a folder for each application with two subfolders: 'originals' and 'uploaded'. Put the high-quality scans in the first and the compressed versions that you actually submitted in the second. If a recruiter later asks for a clearer copy by email, you will have it ready, and you will also know exactly which version the portal received.",
+          "This habit also helps when a portal times out halfway through. You can restart with the same prepared files instead of scanning and compressing everything again."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "resize-image-to-50kb-online-form",
+    "title": "How to Resize an Image to 50 KB for Online Application Forms",
+    "excerpt": "Step-by-step guide to getting a photo under 50 KB for job, exam and government forms, including pixel sizes, quality trade-offs and common rejection reasons.",
+    "category": "tutorials",
+    "tags": [
+      "resize image to 50kb",
+      "photo upload",
+      "application form",
+      "image compression"
+    ],
+    "date": "2026-11-01",
+    "readTime": 6,
+    "coverColor": "#78350F",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 833,
+    "quickAnswer": "Use the free [Resize Image to 50 KB](/tools/resize-image-to-50kb) tool: add your photo, set the maximum size (and the pixel width and height if the form requires them), then download the result. Smaller dimensions and moderate JPEG quality are what bring a phone photo down to 50 KB.",
+    "faq": [
+      {
+        "q": "Why does the form want such a small image?",
+        "a": "Many portals store millions of photos, so they set strict limits to save space and keep uploads fast on slow connections."
+      },
+      {
+        "q": "Does resizing change the shape of my photo?",
+        "a": "Only if you force different proportions. Keep the aspect ratio unless the form gives exact pixel dimensions, and crop rather than stretch."
+      },
+      {
+        "q": "JPG or PNG for a 50 KB photo?",
+        "a": "JPG is usually far smaller for photographs. PNG is better for flat graphics and text but tends to be larger for photos."
+      },
+      {
+        "q": "My file is below 50 KB but the form rejects it. Why?",
+        "a": "Some forms also require a minimum size, a specific format, exact pixel dimensions or a particular background. Re-read the instructions."
+      },
+      {
+        "q": "Is the photo uploaded to your server?",
+        "a": "No. The tool runs in your browser, so the image stays on your device."
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/3584969/pexels-photo-3584969.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "A person typing on a laptop in a stylish home office with a glass of drink nearby.",
+      "caption": "Photo by cottonbro studio on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "Why phone photos are so large",
+        "paras": [
+          "Modern phone cameras capture many millions of pixels. That is great for printing, but a form usually needs only a small head-and-shoulders image. The file size comes mostly from two things: how many pixels there are and how strongly the image is compressed.",
+          "To reach 50 KB you reduce both: fewer pixels and a sensible compression level. The right balance keeps the face clear while dropping the file to a fraction of its original size."
+        ]
+      },
+      {
+        "h2": "Check the requirements first",
+        "paras": [
+          "Read the form's upload instructions closely. Typical details include a maximum file size, allowed formats (often JPG or JPEG), a pixel size such as a specific width and height, and background or framing rules.",
+          "Write these down before you start. It is much faster to produce the correct file once than to upload, fail and repeat."
+        ]
+      },
+      {
+        "h2": "Resize to 50 KB step by step",
+        "paras": [
+          "With the [Resize Image to 50 KB](/tools/resize-image-to-50kb) tool the process is quick:"
+        ],
+        "list": [
+          "Choose the size limit. Use the custom option if your form says something other than 50 KB.",
+          "Enter the pixel width and height if the form specifies them.",
+          "Add your photo from your device.",
+          "Download the result and check the file size shown.",
+          "Open the file to make sure the face is sharp and well framed."
+        ]
+      },
+      {
+        "h2": "Cropping and framing",
+        "paras": [
+          "If the form needs a particular shape, crop before resizing so you do not distort the picture. Leave a little space above the head and keep the face centred. Plain, even lighting also helps compression, because busy backgrounds add detail that takes up bytes.",
+          "For passport-style photos with strict dimensions, the [passport photo maker](/tools/passport-photo) can crop to official sizes first, and you can then compress the output."
+        ]
+      },
+      {
+        "h2": "Other sizes you might need",
+        "paras": [
+          "Forms differ. Some want 20 KB, others 100 KB or more. Our tool has dedicated pages for [20 KB](/tools/resize-image-to-20kb) and [100 KB](/tools/resize-image-to-100kb) so the settings are ready for you.",
+          "If you want to shrink a photo without a specific target, try the general [image compressor](/tools/image-compressor) and compare the preview with the original."
+        ]
+      },
+      {
+        "h2": "Understanding quality, pixels and file size",
+        "paras": [
+          "Three things control how large an image file is: its pixel dimensions, its compression level and its content. Reducing the pixel dimensions shrinks the file quickly, because there is simply less data to store. Increasing compression also helps, but past a point it creates visible blockiness, especially around the edges of the face and on hair.",
+          "Content matters too. A photo with a plain background compresses far better than one taken in front of a busy street. If you are about to take a new photo for a form, choose a plain wall and even light, and you will find 50 KB is much easier to reach with good quality.",
+          "A useful rule of thumb is to resize pixels first and tune compression second. If a form asks for a specific width and height, use those exactly and let the tool handle the compression to hit the size."
+        ]
+      },
+      {
+        "h2": "A short checklist before you upload",
+        "paras": [
+          "Run through these points to catch most problems before they cost you a failed upload. They take less than a minute and avoid repeated attempts, which on slow portals can be especially frustrating.",
+          "If you are applying for several things at once, save the final image under a clear name and keep it. Many people need the same compressed photo for multiple forms, and reusing it ensures consistency across applications."
+        ],
+        "list": [
+          "File size is within the stated limit.",
+          "Format matches what the form allows (usually JPG).",
+          "Pixel size matches exactly, if one is specified.",
+          "Face is sharp and centred, with no heavy shadows.",
+          "File name is short, with no spaces or special characters."
+        ]
+      },
+      {
+        "h2": "Troubleshooting rejections",
+        "paras": [
+          "If the upload fails, the cause is usually a mismatch rather than file size alone. Look for wrong file extension, wrong pixel dimensions, a transparent background in a PNG, or a very long file name.",
+          "Try saving a fresh copy with a short name like photo.jpg. If the portal still complains, try another browser or device, since some old forms behave oddly with certain browsers."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "resize-photo-to-20kb-exam-form",
+    "title": "How to Reduce a Photo to 20 KB for Exam and Government Forms",
+    "excerpt": "A 20 KB limit is one of the toughest. Here is how to get a clear, accepted photo or signature image that small, with the settings that matter most.",
+    "category": "tutorials",
+    "tags": [
+      "resize image to 20kb",
+      "exam form photo",
+      "signature upload",
+      "reduce photo size"
+    ],
+    "date": "2026-11-01",
+    "readTime": 5,
+    "coverColor": "#78350F",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 806,
+    "quickAnswer": "Open the [Resize Image to 20 KB](/tools/resize-image-to-20kb) tool, add your photo, enter the required pixel dimensions if given, and download the result. For 20 KB, keep the image small in pixels, use a plain background and a JPEG format; busy backgrounds and large pixel sizes make the target hard to reach.",
+    "faq": [
+      {
+        "q": "Is 20 KB enough for a clear photo?",
+        "a": "For small form photos, yes, if the pixel dimensions are modest and the background is plain. It will not look like a studio portrait, but it can be perfectly adequate."
+      },
+      {
+        "q": "Should I use the same method for signatures?",
+        "a": "Yes, but the signature resizer is better suited because signatures are mostly white space and compress extremely well."
+      },
+      {
+        "q": "Why does the tool change my dimensions?",
+        "a": "Only if you ask it to. Enter the exact width and height the form requires and the image is resized to match."
+      },
+      {
+        "q": "Can I make a photo bigger again after shrinking it?",
+        "a": "You can enlarge it, but detail that was removed cannot be restored. Always keep the original."
+      },
+      {
+        "q": "What if the form needs both a minimum and a maximum size?",
+        "a": "Aim for the middle of the range so small differences do not push you outside it."
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/40490251/pexels-photo-40490251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "Students write exams in a classroom, focused on their tests. Educational exam setting.",
+      "caption": "Photo by This And No Internet 25 on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "Why 20 KB is hard",
+        "paras": [
+          "Twenty kilobytes is a very small budget for an image. For comparison, a typical phone photo may be many thousands of kilobytes. To fit, the image has to be small in pixel dimensions and compressed fairly strongly.",
+          "The most important factor is often pixel size. A photo of around a couple of hundred pixels on each side compresses far more easily than one thousands of pixels wide."
+        ]
+      },
+      {
+        "h2": "Prepare a good starting photo",
+        "paras": [
+          "A better source image makes the final result better. Take the photo in daylight facing a window, with a plain light wall behind you. Avoid shadows and patterned backgrounds; they add detail that eats into your limited bytes.",
+          "Hold the camera at eye level and keep the face centred. If the form shows a sample photo, copy its framing."
+        ]
+      },
+      {
+        "h2": "Resize to 20 KB step by step",
+        "paras": [
+          "Using the [Resize Image to 20 KB](/tools/resize-image-to-20kb) page:"
+        ],
+        "list": [
+          "Add your photo.",
+          "Set the pixel width and height required by the form, if any.",
+          "Let the tool reduce quality until the file is under the limit.",
+          "Check the displayed size and download.",
+          "Preview the file on screen at 100 percent to ensure the face is still clear."
+        ]
+      },
+      {
+        "h2": "Signatures and stamps",
+        "paras": [
+          "Signature uploads often have a similar limit. Sign with a dark pen on plain white paper, photograph it in even light and crop tightly. Then run it through the [signature resizer](/tools/signature-resizer), which is built for this use.",
+          "Avoid thin pencil strokes; they disappear under compression. A medium-point black or blue pen gives the cleanest result."
+        ]
+      },
+      {
+        "h2": "If you cannot reach 20 KB",
+        "paras": [
+          "Lower the pixel dimensions first, then retry. If the form allows, a grayscale image is smaller than colour. And if your original is very noisy because it was taken in dim light, retake it in better light rather than fighting the file size.",
+          "As a fallback, check whether the form accepts a larger limit. Many have a general upload page with different rules, and tools like [50 KB](/tools/resize-image-to-50kb) may be enough."
+        ]
+      },
+      {
+        "h2": "What compression really does to a small photo",
+        "paras": [
+          "When you compress a photo to 20 KB, the tool discards fine detail the eye is less likely to notice, such as subtle colour variations and very fine texture. At small pixel sizes this works surprisingly well, because the face remains recognisable even when skin texture is simplified.",
+          "What suffers first is gradual shading and sharp edges. You may see slight blocks around the jawline or hair. If these are strong, the fix is usually a lower pixel size with less compression rather than a larger size with heavy compression. Smaller, cleaner images often look better than large, over-compressed ones."
+        ]
+      },
+      {
+        "h2": "Choosing the right file format",
+        "paras": [
+          "For photographs, JPEG is almost always the best choice at a tiny size. PNG preserves every pixel exactly, which makes it large for photos, but it can be better for flat graphics and text-heavy images. Some older portals only accept JPEG, so if you are unsure, JPEG is the safe option.",
+          "Avoid formats the form does not mention, such as WebP or HEIC, even if your phone saves in them by default. HEIC in particular is common on newer phones and is not accepted by many government forms. Convert to JPEG before uploading, and check the extension after conversion."
+        ]
+      },
+      {
+        "h2": "Planning ahead for a deadline",
+        "paras": [
+          "Exam and government forms often have hard deadlines and slow servers on the last day. Prepare your photo and signature a few days early, test the upload page with them, and keep a spare copy on a USB stick or cloud drive. If something is rejected, you will have time to fix it calmly.",
+          "It also helps to take the photo when you are well rested and have time to get it right. A rushed photo with bad lighting can mean several retakes, and the stricter the size limit, the more any flaw in the original shows up in the result."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "make-passport-photo-at-home",
+    "title": "How to Make a Passport Photo at Home: Size, Background and Printing",
+    "excerpt": "Learn how to take, crop and print a passport or visa photo at home, what the common size standards are, and the mistakes that get photos rejected.",
+    "category": "tutorials",
+    "tags": [
+      "passport photo",
+      "visa photo",
+      "photo size",
+      "print at home"
+    ],
+    "date": "2026-11-01",
+    "readTime": 7,
+    "coverColor": "#78350F",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 882,
+    "quickAnswer": "Take a front-facing photo against a plain light background, choose your country's size in a tool like the free [Passport Photo maker](/tools/passport-photo), line your face up with the guide, then download the single photo or a 4x6 inch print sheet. Always check your country's official requirements before submitting.",
+    "faq": [
+      {
+        "q": "What size is a passport photo?",
+        "a": "It depends on the country. Common sizes include 2x2 inches for the United States and 35x45 mm for the UK and Schengen visas. Always confirm with the official source."
+      },
+      {
+        "q": "Can I take a passport photo with my phone?",
+        "a": "Often yes for digital submissions, if it follows the rules on lighting, background, expression and framing. Some countries require a professionally printed photo."
+      },
+      {
+        "q": "Can I wear glasses or a smile?",
+        "a": "Rules vary and are often strict. Many authorities ask for a neutral expression, eyes open and no glare, and some do not allow glasses."
+      },
+      {
+        "q": "What background should I use?",
+        "a": "Usually plain white, off-white or light grey, but the exact colour depends on the country."
+      },
+      {
+        "q": "Is my photo uploaded when I use the tool?",
+        "a": "No. Cropping happens in your browser and the image never leaves your device."
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/39356225/pexels-photo-39356225.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "A close-up of US passport with visas and currency, implying travel theme.",
+      "caption": "Photo by DΛVΞ GΛRCIΛ on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "Know the rules before you shoot",
+        "paras": [
+          "Passport and visa authorities publish detailed photo rules, and they differ between countries and even between document types. Size, head height as a share of the picture, background colour and whether glasses are allowed can all vary.",
+          "Open the official page for your document first and note the size and any special requirements. A tool can crop to the right dimensions, but it cannot know about a rule you have not checked."
+        ]
+      },
+      {
+        "h2": "Set up the shot",
+        "paras": [
+          "Stand or sit facing a plain, light wall in even daylight. Face a window so the light falls on you evenly, and avoid overhead lights that cast shadows under your eyes. Ask someone to take the photo at eye level, from about an arm's length or more away, rather than a selfie, which can distort the face.",
+          "Keep a neutral expression, mouth closed, eyes open and looking at the camera. Pull hair back from your face, and remove anything that casts shadows or glare."
+        ],
+        "list": [
+          "Plain light background with no patterns.",
+          "Even light on both sides of the face.",
+          "Camera at eye level, straight on.",
+          "Neutral expression, both eyes visible.",
+          "No filters, beauty modes or editing."
+        ]
+      },
+      {
+        "h2": "Crop to the official size",
+        "paras": [
+          "Open the [Passport Photo maker](/tools/passport-photo), choose your country and document, and drag the photo so your face fits the guide. If you know the country, you can jump straight to a ready page such as [United States](/tools/passport-photo/us), [United Kingdom](/tools/passport-photo/uk), [Schengen](/tools/passport-photo/schengen), [Canada](/tools/passport-photo/canada), [India](/tools/passport-photo/india), [Australia](/tools/passport-photo/australia), [China](/tools/passport-photo/china) or [Morocco](/tools/passport-photo/morocco).",
+          "Download the single photo for online applications, or the printable 4x6 inch sheet if you need prints."
+        ]
+      },
+      {
+        "h2": "Printing at home or at a shop",
+        "paras": [
+          "For printed photos, a photo-quality paper gives better results than plain paper. If your printer is not great, send the 4x6 sheet to a photo lab or print kiosk, which is usually cheap and gives accurate colours.",
+          "Print at 100 percent scale with no 'fit to page' option, then measure the result with a ruler against the official size. Cut carefully along the edges."
+        ]
+      },
+      {
+        "h2": "Uploading a digital photo",
+        "paras": [
+          "Online applications often add file size limits. If your portal wants a small file, run the photo through [Resize Image to 50 KB](/tools/resize-image-to-50kb) or another size from the same tool family. Keep the pixel dimensions the portal asks for.",
+          "Never edit the face or background with filters. Authorities can and do reject photos that look retouched."
+        ]
+      },
+      {
+        "h2": "Typical size standards at a glance",
+        "paras": [
+          "Photo sizes vary by country, but a few come up again and again. The United States generally uses a square 2x2 inch format. The United Kingdom and many Schengen countries use 35x45 mm. Canada uses 50x70 mm for passports, and several countries have their own variants for visas and national ID cards.",
+          "Because rules change and some documents have special requirements, treat any list as a starting point. The official government page for your document is the final word, including how much of the frame the head should occupy and whether a printed or digital photo is needed."
+        ],
+        "list": [
+          "United States: 2x2 inches (51x51 mm).",
+          "United Kingdom and Schengen visas: 35x45 mm.",
+          "Canada: 50x70 mm.",
+          "Check the official page for India, Australia, China, Morocco and others."
+        ]
+      },
+      {
+        "h2": "Tips for children and babies",
+        "paras": [
+          "Photos of babies and young children are harder, because they cannot hold a neutral expression on command. Lay a baby on a plain white sheet and photograph from above, making sure no hands or toys are visible. Many authorities relax some rules for infants, such as eyes open and a neutral expression, but you should check the guidance for your country.",
+          "For toddlers, patience is the main tool. Take many photos in quick succession in good light and choose the one that best meets the requirements. Keep a parent's hands out of the frame, since extra people or objects can lead to rejection."
+        ]
+      },
+      {
+        "h2": "Cost and time compared with a studio",
+        "paras": [
+          "Taking your own photo can save money and a trip, especially when you need photos for several family members. A studio or photo kiosk, however, knows the rules and often guarantees acceptance, which can be worth it for high-stakes applications. Many people mix the two: they use a home photo for digital submissions and a professional print for documents that need a physical photo.",
+          "Whichever route you take, allow time for a retake. Rejections happen even to careful applicants, and the cost of a delayed application is usually higher than the cost of a professional photo."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "resize-signature-for-online-forms",
+    "title": "How to Scan and Resize a Signature for Online Forms",
+    "excerpt": "Create a clean digital signature image from paper, then resize it to meet strict size limits for exams, job applications and bank forms.",
+    "category": "tutorials",
+    "tags": [
+      "signature resizer",
+      "scan signature",
+      "form upload",
+      "image size"
+    ],
+    "date": "2026-11-01",
+    "readTime": 5,
+    "coverColor": "#78350F",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 764,
+    "quickAnswer": "Sign with a dark pen on plain white paper, photograph it in even light, crop tightly, and then use a tool like the free [Signature Resizer](/tools/signature-resizer) to set the width, height and file size the form asks for. Keep the original so you can reuse it.",
+    "faq": [
+      {
+        "q": "What size should a signature image be?",
+        "a": "It depends on the form. Many ask for a small image around a few kilobytes to tens of kilobytes with set pixel dimensions. Always follow the instructions on your form."
+      },
+      {
+        "q": "Is a scanned signature legally valid?",
+        "a": "It depends on the document and the country. Many forms accept an image of a handwritten signature, but some processes need a specific electronic signature or a wet-ink original. Check the requirement."
+      },
+      {
+        "q": "Should I use a typed signature instead?",
+        "a": "Only if the form allows it. Many portals specifically want your handwritten signature."
+      },
+      {
+        "q": "Why does my signature look blurry after resizing?",
+        "a": "Heavy compression and low-contrast ink cause blur. Use a darker pen and a larger pixel size if the limit allows."
+      },
+      {
+        "q": "Do I need a scanner?",
+        "a": "No. A phone camera in good light is enough for most forms."
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/7876037/pexels-photo-7876037.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "Close-up of a person signing a divorce decree on a desk.",
+      "caption": "Photo by https://kaboompics.com/ on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "Start with a good paper signature",
+        "paras": [
+          "The quality of your final image depends on the first step. Use a medium-point black or dark blue pen on plain white paper. Avoid pencil, light ink or lined paper, which can introduce noise and make the strokes fade when compressed.",
+          "Sign a few times and choose the cleanest one. Leave some white space around it so you can crop comfortably."
+        ]
+      },
+      {
+        "h2": "Capture it",
+        "paras": [
+          "Place the paper on a flat surface in bright, even light, ideally near a window and without your shadow falling on it. Hold the phone directly above to avoid a tilted perspective, and take the photo.",
+          "If you have a scanner, use it at a moderate resolution in grayscale. High resolution is not needed and just creates a larger file."
+        ]
+      },
+      {
+        "h2": "Crop and resize",
+        "paras": [
+          "Crop tightly around the signature so it fills the frame. Then open the [Signature Resizer](/tools/signature-resizer), add the image, and enter the pixel size and maximum file size required by your form. Download the result and check that the strokes remain smooth.",
+          "If the form has a different, stricter limit, you can follow the general approach in our guides for [20 KB images](/tools/resize-image-to-20kb) or [50 KB images](/tools/resize-image-to-50kb)."
+        ],
+        "list": [
+          "Crop closely to the signature.",
+          "Enter the width and height from the form.",
+          "Set the maximum file size.",
+          "Download and preview at full size."
+        ]
+      },
+      {
+        "h2": "Avoid common problems",
+        "paras": [
+          "Dark background patches are the usual culprit for rejected files. If the paper looks grey in the photo, brighten the image slightly before resizing. A signature on a coloured or textured surface compresses badly and looks rough.",
+          "Do not stretch the signature to fill a box with different proportions. Distortion makes it look unnatural and can cause a mismatch with the signature on your documents."
+        ]
+      },
+      {
+        "h2": "Presets and typical dimensions",
+        "paras": [
+          "Different forms use different dimensions. Examples you may see include a few hundred pixels wide by around a hundred pixels high, with file sizes from about 10 KB up to 50 KB. The exact numbers are set by each organisation, so use what your form states rather than a number from a forum post.",
+          "The Signature Resizer lets you type any width, height and maximum size, and it can clean the background to white. That is helpful when the paper looks grey in the photo, because a clean white background compresses far better and looks more professional."
+        ]
+      },
+      {
+        "h2": "Making the signature look natural",
+        "paras": [
+          "A signature image should look like a signature, not a smudge. Keep the pen strokes dark and confident, and avoid shrinking the image so much that fine loops disappear. If you must choose between exact pixel size and legibility, check whether the form tolerates a slightly different size, and ask the organisation if possible.",
+          "Consistency matters too. If you are applying for something where signatures are compared, use the same style you would on identity documents. A very different, rushed signature can raise questions even if the image itself is technically perfect.",
+          "If your form accepts it, save the signature as a PNG with a transparent background for use on documents, and as a small JPG for forms that demand it. Having both ready saves time."
+        ]
+      },
+      {
+        "h2": "Keep it safe",
+        "paras": [
+          "A signature image can be misused if it falls into the wrong hands. Store it in a private folder, avoid sending it by chat or email unless required, and do not post it on social media. Our tool works in your browser, so the file is not uploaded for processing.",
+          "If you need to combine the signature with documents, the [image to PDF](/tools/image-to-pdf) tool can put it on a page, though many official forms have their own signature fields."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "convert-jpg-to-pdf-free",
+    "title": "How to Convert JPG Photos to a Single PDF for Free",
+    "excerpt": "Turn phone photos and scans into one tidy PDF, in the right order, without installing software. Includes tips for ID copies, receipts and homework.",
+    "category": "tutorials",
+    "tags": [
+      "jpg to pdf",
+      "image to pdf",
+      "combine photos",
+      "scan documents"
+    ],
+    "date": "2026-11-01",
+    "readTime": 6,
+    "coverColor": "#78350F",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 834,
+    "quickAnswer": "Open the free [Image to PDF](/tools/image-to-pdf) tool, add your JPG or PNG files, arrange them in the order you want and download one combined PDF. If the result is too large for an upload form, compress the images first or run the PDF through a PDF compressor.",
+    "faq": [
+      {
+        "q": "Can I combine several photos into one PDF?",
+        "a": "Yes. Add all the images, drag them into the right order, and the tool creates a single multi-page PDF."
+      },
+      {
+        "q": "Will the PDF be too big?",
+        "a": "Phone photos are large, so a PDF made from several of them can be several megabytes. Compress the images first or compress the finished PDF if you have a size limit."
+      },
+      {
+        "q": "Does converting reduce image quality?",
+        "a": "A conversion itself keeps the image as it is, but compressing to reach a size limit lowers quality. Keep your original photos."
+      },
+      {
+        "q": "Are my files uploaded?",
+        "a": "No. The conversion runs in your browser, so your photos stay on your device."
+      },
+      {
+        "q": "Can I convert PNG or screenshots too?",
+        "a": "Yes, JPG and PNG images are both supported."
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/8372621/pexels-photo-8372621.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "A smartphone with a COVID-19 health passport, passport, and travel documents indicating readiness for international travel.",
+      "caption": "Photo by Leeloo The First on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "Why a PDF is better than loose photos",
+        "paras": [
+          "Sending ten separate photos of a document is messy: pages arrive out of order, some get cropped by chat apps and the recipient has to download everything. A single PDF keeps the pages together, in sequence, and opens the same way on every device.",
+          "Many organisations also ask for PDFs specifically, for example landlords, banks, schools and job portals. Converting your photos takes less than a minute, so it is worth doing properly."
+        ]
+      },
+      {
+        "h2": "Take clean photos first",
+        "paras": [
+          "The PDF is only as good as the photos in it. Put each page on a flat, dark or neutral surface in even light, hold the phone directly above it so the edges look straight, and make sure the text fills most of the frame. Avoid shadows from your hand or phone.",
+          "If your phone has a built-in document scanner mode, use it: it usually straightens and brightens pages automatically. Otherwise, a simple crop to remove the table around the paper makes a big difference."
+        ],
+        "list": [
+          "Use even daylight, not a flash.",
+          "Keep the phone parallel to the page.",
+          "Fill the frame with the page.",
+          "Check that every line of text is sharp."
+        ]
+      },
+      {
+        "h2": "Convert step by step",
+        "paras": [
+          "With the [Image to PDF](/tools/image-to-pdf) tool, the process is straightforward and quick:"
+        ],
+        "list": [
+          "Open the tool and add your JPG or PNG files.",
+          "Drag the thumbnails into the order of the pages.",
+          "Create the PDF and download it.",
+          "Open the PDF and scroll through to check every page."
+        ]
+      },
+      {
+        "h2": "Keep the file size under control",
+        "paras": [
+          "A common surprise is how large the PDF becomes. Each photo may be several megabytes, so ten pages can exceed an email or upload limit. Reduce the images first with the [image compressor](/tools/image-compressor), then build the PDF from the smaller versions.",
+          "If you already have the PDF, use a PDF compressor such as [Compress PDF to 500 KB](/tools/compress-pdf-to-500kb) or [200 KB](/tools/compress-pdf-to-200kb). Check readability afterwards, especially for small print."
+        ]
+      },
+      {
+        "h2": "Handling sensitive documents",
+        "paras": [
+          "ID copies, bank statements and contracts deserve extra care. Use tools that process files on your device, avoid leaving copies in shared folders, and delete temporary files when you are done. When you send an ID copy, consider adding a note on the purpose, so it cannot easily be reused for something else.",
+          "Many people also store a clean master copy in a private, encrypted folder and send only the reduced version when needed."
+        ]
+      },
+      {
+        "h2": "Common problems and fixes",
+        "paras": [
+          "Pages in the wrong order are fixed by dragging before you create the PDF. Pages that appear sideways usually mean the photo was rotated by the phone's sensor; rotate the image and convert again. Blurry text means the source photo was out of focus, so retake it rather than trying to sharpen a PDF.",
+          "If the recipient says the file will not open, make sure it ends in .pdf and was not created by simply renaming an image file."
+        ]
+      },
+      {
+        "h2": "Scanning tips that make a big difference",
+        "paras": [
+          "Small habits during capture save time later. Take photos in portrait orientation for portrait pages, keep the camera steady by resting your elbows on the table, and use the same lighting for every page so the PDF does not look patchy. If a page has a crease or curl, flatten it under a clean sheet of glass or a heavy book before you shoot.",
+          "If you are photographing a bound book or a thick document, press the spine flat and take each page separately rather than trying to capture two pages at once. Tools that combine images work best when each file is a single, clearly cropped page.",
+          "Finally, name your files with numbers such as page-01 and page-02. Many tools sort by file name when you add several images, so numbered names give you the right order automatically and save a minute of dragging."
+        ]
+      },
+      {
+        "h2": "When to use a different approach",
+        "paras": [
+          "For long documents with a lot of text, a typed original exported to PDF will always be smaller and sharper than photographed pages. And if you need a legally signed version, check whether the recipient needs a particular signature format; some require an e-signature rather than a photo of ink.",
+          "For simple everyday jobs, though, photos to PDF is exactly what the tool is for."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "compress-images-without-losing-quality",
+    "title": "How to Compress Images Without Visibly Losing Quality",
+    "excerpt": "Large images slow down websites and fill up inboxes. Learn what actually reduces file size, which settings are safe, and how to compare before and after.",
+    "category": "tutorials",
+    "tags": [
+      "image compression",
+      "reduce image size",
+      "website speed",
+      "jpeg quality"
+    ],
+    "date": "2026-11-01",
+    "readTime": 7,
+    "coverColor": "#78350F",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 785,
+    "quickAnswer": "To compress images without noticeable quality loss, resize them to the dimensions you actually need, use JPEG for photos at a moderate quality setting, and compare the result with the original at 100 percent zoom. The free [Image Compressor](/tools/image-compressor) shows the new size before you download.",
+    "faq": [
+      {
+        "q": "Is lossless compression better?",
+        "a": "It keeps every pixel but saves less space. For photos, careful lossy compression at a moderate setting is usually good enough and much smaller."
+      },
+      {
+        "q": "What quality setting should I use for JPEG?",
+        "a": "There is no universal number, but moderate-to-high settings often look nearly identical to the original while saving a lot of space. Always compare visually."
+      },
+      {
+        "q": "Does resizing count as compression?",
+        "a": "It reduces file size by cutting pixels, which is often the biggest win. Many images are far larger than the screen they are shown on."
+      },
+      {
+        "q": "Which format is smallest?",
+        "a": "It depends on the image. JPEG suits photos, PNG suits flat graphics with text, and newer formats can be smaller but are not accepted everywhere."
+      },
+      {
+        "q": "Will compressing images help my website?",
+        "a": "Smaller images usually load faster, which can improve the experience for visitors on slow connections."
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/7014919/pexels-photo-7014919.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "Side view of crop anonymous female editing photos on netbook while sitting at table with graphic tablet in room with potted plants",
+      "caption": "Photo by George Milton on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "What compression actually does",
+        "paras": [
+          "Image compression reduces file size in two main ways. Lossless methods rearrange the data more efficiently and can be reversed exactly. Lossy methods, like most JPEG compression, throw away detail the eye is least likely to notice, which saves much more space but cannot be undone.",
+          "For web and email use, lossy compression at a sensible level is usually the right trade-off. The key is stopping before the damage becomes visible."
+        ]
+      },
+      {
+        "h2": "Resize first",
+        "paras": [
+          "The single most effective step is making the image the right size. A photo straight from a modern phone can be thousands of pixels wide, yet it may be displayed in a column a few hundred pixels across. Serving the full-size file wastes bandwidth and storage.",
+          "Decide the largest size at which the image will be displayed, allow for sharper high-density screens, and resize to that. Only then apply compression."
+        ]
+      },
+      {
+        "h2": "Choose the right format",
+        "paras": [
+          "Photographs generally belong in JPEG. Screenshots, logos and graphics with sharp edges and text usually look cleaner and are sometimes smaller as PNG. Transparent backgrounds require PNG or another format that supports transparency.",
+          "Newer formats can reduce size further, but older software, forms and email clients may not accept them. When the destination is unknown, JPEG and PNG are the safe choices."
+        ],
+        "list": [
+          "Photos: JPEG.",
+          "Logos, line art, screenshots: PNG.",
+          "Transparency needed: PNG.",
+          "Strict upload forms: JPEG."
+        ]
+      },
+      {
+        "h2": "Compress step by step",
+        "paras": [
+          "Using the [Image Compressor](/tools/image-compressor):"
+        ],
+        "list": [
+          "Add your image from your device.",
+          "Choose a quality level or target size.",
+          "Compare the preview with the original.",
+          "Download the compressed copy and keep the original."
+        ]
+      },
+      {
+        "h2": "How to compare before and after",
+        "paras": [
+          "Open both versions side by side and zoom to 100 percent. Look at areas with smooth gradients, such as skies and skin, which show blocky artefacts first, and at sharp edges around text, which can look fuzzy or surrounded by speckles.",
+          "If you can see damage at normal viewing size, increase the quality setting a notch. If you cannot see any difference, you may be able to compress further."
+        ]
+      },
+      {
+        "h2": "Targets for forms and uploads",
+        "paras": [
+          "Some uploads demand an exact limit rather than a quality level. For those, use a tool built around a target size such as [Resize Image to 100 KB](/tools/resize-image-to-100kb) or [50 KB](/tools/resize-image-to-50kb). It will adjust quality automatically until the file fits.",
+          "If you are putting images into a document, a combined file can be made with [Image to PDF](/tools/image-to-pdf) after compressing the individual pages."
+        ]
+      },
+      {
+        "h2": "Compressing for websites and social media",
+        "paras": [
+          "Websites benefit most from careful image handling, because images are often the heaviest part of a page. Resize to the maximum display width, compress, and give each image a descriptive file name and alt text. Large hero images deserve extra attention, since visitors see them first and a slow load is noticeable.",
+          "Social platforms re-compress what you upload, so starting with a clean, correctly sized file helps. Uploading a huge image does not guarantee a sharper result; it often just means the platform's own compression is applied to a larger source. Check the recommended dimensions for each platform, which change from time to time.",
+          "For email, a handful of images at moderate size is usually fine, but a dozen full-resolution photos can push a message over the attachment limit. Compress first, or share a link to an album instead. Keep the originals safe so you can always produce a different size later."
+        ]
+      },
+      {
+        "h2": "Habits that keep quality high",
+        "paras": [
+          "Always compress from the original, never from an already compressed copy, because repeated lossy compression stacks damage. Keep a folder of untouched originals, and save web copies under different names. Avoid screenshots of screenshots, which add compression twice.",
+          "When in doubt, aim for the smallest file that you cannot tell apart from the original on your actual screen. That standard is more useful than any specific number."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "create-qr-code-free-no-signup",
+    "title": "How to Create a Free QR Code (No Sign-Up) for Links, Wi-Fi and Menus",
+    "excerpt": "Make a QR code for a website, menu, business card or Wi-Fi network without registering. Covers design tips, testing, and why static codes do not expire.",
+    "category": "tutorials",
+    "tags": [
+      "qr code generator",
+      "free qr code",
+      "menu qr",
+      "wifi qr"
+    ],
+    "date": "2026-11-01",
+    "readTime": 6,
+    "coverColor": "#78350F",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 863,
+    "quickAnswer": "Open the free [QR Code Generator](/tools/qr-code-generator), enter your link or text, download the image and test it with a phone before printing. A plain static QR code simply stores the text you enter, so it does not expire and does not need an account.",
+    "faq": [
+      {
+        "q": "Do free QR codes expire?",
+        "a": "A static code that stores your link directly does not expire by itself. Codes from services that route through their own redirect can stop working if the service ends or you stop paying."
+      },
+      {
+        "q": "What can a QR code contain?",
+        "a": "Mostly text: a web address, plain text, an email, a phone number or Wi-Fi details, depending on the format the generator supports."
+      },
+      {
+        "q": "How big should a printed QR code be?",
+        "a": "Large enough for a phone to scan from the expected distance, and with a clear blank border around it. Test with a few phones before mass printing."
+      },
+      {
+        "q": "Can I put a logo in the middle?",
+        "a": "Some codes tolerate a small logo, but it can reduce reliability. If you try it, scan-test thoroughly."
+      },
+      {
+        "q": "Is my data sent to a server?",
+        "a": "Our generator runs in your browser, so what you type is not uploaded."
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/278430/pexels-photo-278430.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "High-resolution close-up of a smartphone displaying a QR code on its screen.",
+      "caption": "Photo by Pixabay on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "What a QR code is",
+        "paras": [
+          "A QR code is just a way of storing a short piece of text as a pattern of squares that a camera can read. When you scan it, your phone decodes the text and then decides what to do with it: open a web page, show a message, join a Wi-Fi network or start an email.",
+          "Because it is only text, a basic QR code is simple and permanent. The only thing that can change is where the content points, such as a web page that moves."
+        ]
+      },
+      {
+        "h2": "Static versus dynamic codes",
+        "paras": [
+          "A static code contains your final information directly. It cannot be edited, but it also cannot be switched off by a third party. A dynamic code contains a short redirect link controlled by a service, which lets you change the destination and track scans, usually behind a subscription.",
+          "For a personal link, a business card or a one-off flyer, static is typically enough. If you need analytics or to change the destination later, consider a dynamic service, and read the terms about what happens if you stop paying."
+        ]
+      },
+      {
+        "h2": "Create one step by step",
+        "paras": [
+          "With the [QR Code Generator](/tools/qr-code-generator):"
+        ],
+        "list": [
+          "Decide what the code should contain, such as a web address.",
+          "Paste it into the generator, checking for typos.",
+          "Download the image in the format you need.",
+          "Scan it with at least two phones before using it."
+        ]
+      },
+      {
+        "h2": "Design and printing tips",
+        "paras": [
+          "Contrast is the most important factor. Dark squares on a light background scan best. Avoid low-contrast colour pairs, patterned backgrounds and inverted colours that some scanners struggle with.",
+          "Leave a blank margin around the code, do not stretch it, and print it large enough for the distance. A code on a table tent can be small; one on a poster needs to be much larger. Matte surfaces scan better than glossy ones that reflect light."
+        ],
+        "list": [
+          "Dark code on a light background.",
+          "Keep a blank border around it.",
+          "Do not distort the proportions.",
+          "Print a test copy and scan it."
+        ]
+      },
+      {
+        "h2": "Ideas for everyday use",
+        "paras": [
+          "Restaurants and cafes often link to a menu page, which can be updated without reprinting if the web address stays the same. Freelancers add a code to a business card that points to a portfolio. Events share schedules and sign-up pages, and landlords or hosts print a Wi-Fi code so guests need not type a password.",
+          "Whatever the use, keep the destination page fast and mobile-friendly, because that is where almost everyone will arrive."
+        ]
+      },
+      {
+        "h2": "Safety and trust",
+        "paras": [
+          "Scammers sometimes stick fake QR codes over real ones, for example on parking meters or posters. Before scanning a code in public, check that it has not been covered by a sticker, and look at the address your phone shows before opening it.",
+          "If you publish codes yourself, make the destination clearly branded and consider printing the short web address nearby, so people can verify it."
+        ]
+      },
+      {
+        "h2": "Common QR code mistakes",
+        "paras": [
+          "The most frequent mistake is printing a code without scanning it first. A single wrong character in the link produces a perfectly scannable code that leads to an error page. Always copy the final web address from your browser, paste it into the generator and test the printed result, not just the on-screen preview.",
+          "Another common problem is pointing the code at a page that is not mobile-friendly. Most people scan with a phone, so the destination should load quickly, use readable text and avoid pop-ups that block the content. A beautiful code that leads to a clumsy page wastes the effort.",
+          "Finally, avoid very long links in a code. The longer the text, the denser the pattern, and dense patterns are harder to scan at small sizes. Use a short, clean address on your own site when you can, and keep a note of what each printed code points to so you can update the destination page later."
+        ]
+      },
+      {
+        "h2": "Testing before you print",
+        "paras": [
+          "Test the code under real conditions: on different phones, in dim light and at the distance people will scan from. Click through the destination and make sure it works on mobile data, not just on your Wi-Fi.",
+          "Finally, keep the original file safe. If you ever need to reprint, a high-resolution copy saves you from regenerating and re-testing."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "word-counter-essay-limits-seo",
+    "title": "Word Count Tips: How to Hit Essay Limits and Write the Right Length",
+    "excerpt": "How to count words and characters accurately, what counts toward a limit, and how to trim or expand text for essays, applications, social posts and web copy.",
+    "category": "tutorials",
+    "tags": [
+      "word counter",
+      "character count",
+      "essay word limit",
+      "writing tips"
+    ],
+    "date": "2026-11-01",
+    "readTime": 6,
+    "coverColor": "#78350F",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 783,
+    "quickAnswer": "Paste your text into a free [Word Counter](/tools/word-counter) to see words, characters and sentences instantly. Check whether the limit includes headings, references and spaces, then trim by cutting filler words and repeated ideas, or expand with examples and explanations.",
+    "faq": [
+      {
+        "q": "Do references count toward the word limit?",
+        "a": "It depends on the assignment or form. Read the instructions; many exclude the reference list, others include everything."
+      },
+      {
+        "q": "Do spaces count as characters?",
+        "a": "Often yes for social media limits, but some forms count characters without spaces. Check which one applies."
+      },
+      {
+        "q": "How long should a blog post be?",
+        "a": "There is no fixed number. Length should match what the reader needs to answer the question fully, no more and no less."
+      },
+      {
+        "q": "Is a word counter accurate across tools?",
+        "a": "Small differences happen with hyphens, numbers and symbols, so leave a small margin under a strict limit."
+      },
+      {
+        "q": "Does my text leave my device?",
+        "a": "Our counter works in your browser, so the text is not uploaded."
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/3807759/pexels-photo-3807759.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "A young woman focused on writing in her notebook near a sunlit window.",
+      "caption": "Photo by Andrea Piacquadio on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "Why word counts differ between tools",
+        "paras": [
+          "Different programs count words slightly differently. Some treat hyphenated words as one, others as two. Numbers, symbols and URLs can behave differently. Because of this, a document might show 998 words in one tool and 1,003 in another.",
+          "If a limit is strict, aim for a small buffer below it rather than exactly on the line. That avoids rejection when the system counts differently from your editor."
+        ]
+      },
+      {
+        "h2": "Words versus characters",
+        "paras": [
+          "Essays and articles are usually measured in words, while social posts, meta descriptions, text messages and some application fields use characters. When a field says 'characters', check whether spaces are included. Many web forms count them, and some count line breaks as more than one character.",
+          "A word counter that shows both numbers saves guesswork. Paste your draft, check the figure that applies, and keep an eye on it as you edit."
+        ]
+      },
+      {
+        "h2": "Count your text step by step",
+        "paras": [
+          "Using the [Word Counter](/tools/word-counter) is quick:"
+        ],
+        "list": [
+          "Paste or type your text into the box.",
+          "Read the word, character and sentence figures.",
+          "Note whether the limit includes titles and references.",
+          "Edit and recount until you are comfortably inside the limit."
+        ]
+      },
+      {
+        "h2": "How to cut words without losing meaning",
+        "paras": [
+          "Most first drafts contain padding. Look for phrases like 'in order to' (use 'to'), 'due to the fact that' (use 'because') and 'it is important to note that' (often safe to delete). Remove repeated points, long introductions and sentences that restate the previous one.",
+          "Replace weak verb and noun pairs with a single strong verb, such as 'make a decision' with 'decide'. Read the text aloud; wherever you stumble, a cut usually helps."
+        ],
+        "list": [
+          "Cut filler phrases.",
+          "Merge repeated points.",
+          "Prefer strong verbs.",
+          "Trim the introduction and conclusion."
+        ]
+      },
+      {
+        "h2": "How to add words usefully",
+        "paras": [
+          "If you are under a minimum, do not pad with fluff. Add specific examples, a short explanation of a key term, a counter-argument with a response, or the evidence behind a claim. These improve the writing as well as the length.",
+          "In web copy, answer the follow-up questions a reader is likely to have. That is better for people and usually better for search engines than simply stretching a page."
+        ]
+      },
+      {
+        "h2": "Length guidelines for common formats",
+        "paras": [
+          "Short social posts, product descriptions, cover letters and essays each have their own norms, and the right length is usually whatever the instructions request. When none are given, aim for the shortest text that fully does the job.",
+          "For search-oriented articles, look at what currently ranks for your topic to understand depth, but do not chase an arbitrary word count. Quality, accuracy and clarity matter more than hitting a number."
+        ]
+      },
+      {
+        "h2": "Counting words for different audiences",
+        "paras": [
+          "Different readers expect different lengths. A cover letter that runs long loses attention, an academic essay that falls short may miss required depth, and a product description that rambles pushes the buying information out of sight. Before you write, find out the expected range and plan your sections so each one has a share of the total.",
+          "For web content, think about the question the reader asked and how much it takes to answer it well. Some questions deserve two hundred words; others need two thousand. Padding to reach a number makes pages worse, while leaving out useful detail makes them less helpful. A word counter helps you check proportions: if your introduction is longer than your main section, something is off.",
+          "Social posts and meta descriptions are the opposite case, where every character counts. Draft slightly over, then trim to the limit, keeping the most important words near the beginning where they are least likely to be cut off by the platform's display."
+        ]
+      },
+      {
+        "h2": "A final polish pass",
+        "paras": [
+          "Once you hit the length, run a last check for spelling, repeated words and unclear sentences. Then recount, because edits change the total. If the limit is strict, leave a few words of margin and save a copy before submitting.",
+          "Used regularly, a counter becomes a quick sanity check that keeps drafts focused and the right size."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "how-to-create-strong-passwords",
+    "title": "How to Create Strong Passwords You Can Actually Manage",
+    "excerpt": "What makes a password strong, why length beats complexity, and how to use a generator and a password manager so you never reuse a password again.",
+    "category": "tutorials",
+    "tags": [
+      "password generator",
+      "strong password",
+      "password manager",
+      "online security"
+    ],
+    "date": "2026-11-01",
+    "readTime": 7,
+    "coverColor": "#78350F",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 813,
+    "quickAnswer": "Use a long, unique password for every account, created by a password generator rather than from your head, and store them in a reputable password manager. Turn on two-factor authentication for important accounts. The free [Password Generator](/tools/password-generator) creates random passwords in your browser.",
+    "faq": [
+      {
+        "q": "How long should a password be?",
+        "a": "Longer is generally stronger. Many security guides suggest at least 12-16 characters for ordinary accounts and longer for important ones; follow current guidance from a trusted authority."
+      },
+      {
+        "q": "Is a passphrase better than a random password?",
+        "a": "A passphrase of several random words can be strong and easier to type. Random characters stored in a manager are fine when you do not need to memorise them."
+      },
+      {
+        "q": "Is it safe to use an online generator?",
+        "a": "Prefer one that generates in your browser without sending data anywhere, and never use a password that someone else saw."
+      },
+      {
+        "q": "Should I change passwords regularly?",
+        "a": "Current guidance often favours changing a password when there is a reason, such as a breach, rather than on a fixed schedule. Check guidance from your organisation."
+      },
+      {
+        "q": "What is two-factor authentication?",
+        "a": "A second step, such as a code from an app, required in addition to your password. It protects you even if the password leaks."
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/39584/censorship-limitations-freedom-of-expression-restricted-39584.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "Chain-locked book, phone, and laptop symbolizing digital and intellectual security.",
+      "caption": "Photo by Pixabay on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "What makes a password weak",
+        "paras": [
+          "Most weak passwords are weak for predictable reasons: they are short, based on personal facts like names and birthdays, built from common words with simple substitutions such as '@' for 'a', or reused across several sites. Attackers use lists of leaked passwords and common patterns, so anything guessable falls quickly.",
+          "Reuse is the biggest everyday danger. When one site is breached, the same email and password are tried on many others."
+        ]
+      },
+      {
+        "h2": "Length beats complexity",
+        "paras": [
+          "A long password of random characters or several unrelated words is much harder to crack than a short one with a few symbols. Rules that force a capital, a number and a symbol often lead people to predictable tricks like adding '1!' at the end.",
+          "Aim for length and randomness. If a site limits the length or characters, use the maximum it allows and prefer a generator over inventing something yourself."
+        ],
+        "list": [
+          "Make it long.",
+          "Make it random, not clever.",
+          "Make it unique for every account.",
+          "Never share it by chat or email."
+        ]
+      },
+      {
+        "h2": "Generate a password step by step",
+        "paras": [
+          "With the [Password Generator](/tools/password-generator):"
+        ],
+        "list": [
+          "Choose the length. Longer is better unless the site limits it.",
+          "Select which character types to include if the site requires specific ones.",
+          "Generate and copy the password.",
+          "Save it straight into your password manager before you close the page."
+        ]
+      },
+      {
+        "h2": "Use a password manager",
+        "paras": [
+          "Nobody can remember dozens of long random passwords, and they should not have to. A reputable password manager stores them encrypted behind one strong master password, fills them in for you and warns you about reuse. Choose a well-known product, read its security documentation and protect the master password carefully.",
+          "Some browsers and operating systems have built-in managers too. They can be convenient, but consider how you would recover access if you lose a device."
+        ]
+      },
+      {
+        "h2": "Add two-factor authentication",
+        "paras": [
+          "Even a strong password can leak through a breach or phishing. Two-factor authentication adds another hurdle. An authenticator app or a hardware security key is generally stronger than codes sent by text message, though any second factor is better than none.",
+          "Prioritise your email, banking, cloud storage and social accounts, because email in particular is often used to reset other passwords."
+        ]
+      },
+      {
+        "h2": "Spotting phishing",
+        "paras": [
+          "Strong passwords do not help if you type them into a fake site. Be careful with links in unexpected messages, check the web address before logging in and be suspicious of urgent threats. A password manager helps because it normally will not fill in a password on a look-alike domain.",
+          "If you think a password has been exposed, change it immediately and anywhere else it was used."
+        ]
+      },
+      {
+        "h2": "Passwords you still have to remember",
+        "paras": [
+          "A few passwords cannot live in a manager, such as the master password itself, your device login and perhaps your email. For these, a passphrase made of several random words is a good compromise: long, unusual and easier to recall than a string of symbols. The words should be chosen randomly, not from a quote, song lyric or phrase connected to you.",
+          "Make the passphrase longer rather than fancier. Adding another random word helps more than replacing a letter with a number. Practise typing it a few times so it becomes muscle memory, and then avoid writing it down where others can find it. If you do keep a written backup, store it somewhere physically secure.",
+          "Never reuse these important passwords anywhere else. If any one of them is leaked, an attacker will try it on your other accounts first, so keeping them unique contains the damage to a single place."
+        ]
+      },
+      {
+        "h2": "A simple routine to start today",
+        "paras": [
+          "Begin with your most important accounts: email, banking and anything linked to your phone number. Create a unique generated password for each, save them in your manager, and switch on two-factor authentication. Then work through the rest over a few days.",
+          "Small steady changes beat a perfect plan you never finish."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "how-to-format-and-validate-json-online",
+    "title": "How to Format and Validate JSON Online (and Fix Common Errors)",
+    "excerpt": "Make messy JSON readable, catch syntax errors fast and learn the mistakes that break parsers: trailing commas, single quotes, missing brackets and more.",
+    "category": "tutorials",
+    "tags": [
+      "json formatter",
+      "validate json",
+      "json errors",
+      "developer tools"
+    ],
+    "date": "2026-11-01",
+    "readTime": 6,
+    "coverColor": "#78350F",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 758,
+    "quickAnswer": "Paste your JSON into a free [JSON Formatter](/tools/json-formatter) to pretty-print it and check the syntax. The most common errors are trailing commas, single quotes instead of double quotes, unquoted keys and missing brackets or braces.",
+    "faq": [
+      {
+        "q": "What is JSON?",
+        "a": "JSON is a text format for structured data using objects in curly braces, arrays in square brackets, strings, numbers, booleans and null."
+      },
+      {
+        "q": "Why does my JSON fail to parse?",
+        "a": "Usually a small syntax error such as a trailing comma, single quotes, an unescaped quote inside a string or a missing bracket."
+      },
+      {
+        "q": "Is JSON the same as a JavaScript object?",
+        "a": "They look alike, but JSON is stricter: keys must be double-quoted strings and comments are not allowed."
+      },
+      {
+        "q": "Is it safe to paste API data into an online formatter?",
+        "a": "Avoid pasting secrets such as keys or personal data into any online tool. Ours runs in your browser, but remove sensitive values anyway."
+      },
+      {
+        "q": "Can I minify JSON too?",
+        "a": "Yes, removing whitespace makes JSON smaller for transport, though it becomes harder to read."
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/6424583/pexels-photo-6424583.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "Close-up of colorful programming code displayed on a computer monitor with a dark background.",
+      "caption": "Photo by Nemuel Sereti on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "Why formatting matters",
+        "paras": [
+          "Raw JSON from an API or a log is often a single long line. That is efficient for machines but nearly impossible for people to read. Pretty-printing adds line breaks and indentation so you can see the structure, follow nested objects and spot a missing value at a glance.",
+          "A formatter also acts as a quick validator: if the text cannot be parsed, it tells you where the problem is, usually with a line or position."
+        ]
+      },
+      {
+        "h2": "Format JSON step by step",
+        "paras": [
+          "Using the [JSON Formatter](/tools/json-formatter):"
+        ],
+        "list": [
+          "Paste your JSON into the input box.",
+          "Run the formatter to indent it.",
+          "Read any error message and jump to the position it points to.",
+          "Copy the corrected, formatted output."
+        ]
+      },
+      {
+        "h2": "The rules of valid JSON",
+        "paras": [
+          "JSON has a small set of strict rules. Keys must be strings in double quotes. Strings use double quotes, never single. Values can be strings, numbers, true, false, null, arrays or objects. Items are separated by commas, with no comma after the last item, and comments are not part of the standard.",
+          "These rules are why JSON copied from a code editor or written by hand so often fails. A JavaScript object literal is more forgiving than real JSON."
+        ]
+      },
+      {
+        "h2": "The most common errors",
+        "paras": [
+          "Most failures fall into a few categories. Fixing them in this order solves the majority:"
+        ],
+        "list": [
+          "Trailing comma after the last item in an object or array.",
+          "Single quotes around keys or strings instead of double quotes.",
+          "Unquoted keys, such as {name: \"Ana\"}.",
+          "Missing or extra bracket or brace, often in deeply nested data.",
+          "Unescaped double quote or backslash inside a string.",
+          "Comments left in the text."
+        ]
+      },
+      {
+        "h2": "Reading error messages",
+        "paras": [
+          "Error messages often point to the place where the parser gave up, which can be just after the real mistake. If it says 'unexpected token' at a certain position, look at the characters just before it. A missing comma between two items is typically reported at the start of the second.",
+          "For long documents, format first, then fold sections in your editor to isolate the broken part."
+        ]
+      },
+      {
+        "h2": "Working with large or sensitive data",
+        "paras": [
+          "Very large files may be slow in a browser, so extract the relevant section when you can. And never paste credentials, tokens, personal data or confidential records into a tool you do not control. Replace secrets with dummy values before sharing JSON in forums or tickets.",
+          "Because our formatter runs locally in the browser, your text is not uploaded, but sanitising habits are still worth keeping."
+        ]
+      },
+      {
+        "h2": "JSON compared with other formats",
+        "paras": [
+          "JSON is popular because it is simple and readable, but it is not the only option. YAML is often used for configuration because it allows comments and is less cluttered, while XML is still common in older systems and documents. CSV works for flat tables but struggles with nested data.",
+          "Choose JSON when you need to exchange structured data between programs, especially web services, because almost every programming language can read and write it. If humans will edit the file by hand a lot, consider whether comments and a more forgiving syntax would save time.",
+          "When converting between formats, validate the result. Data types can change in subtle ways: a number may become a string, a date may lose its time zone and empty values may be handled differently. A quick formatting and validation pass helps you spot these differences before they reach production."
+        ]
+      },
+      {
+        "h2": "Tips for cleaner JSON in projects",
+        "paras": [
+          "Agree on consistent key naming, use arrays for lists, and keep dates in a standard format such as ISO 8601. Validate JSON in your build or tests so errors are caught early, and use a schema if your data is complex.",
+          "When others consume your data, add clear documentation and examples. Well-structured JSON saves hours of debugging for everyone."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "best-free-ai-tools-for-students-2026",
+    "title": "Best Free AI Tools for Students in 2026: Study, Write and Stay Honest",
+    "excerpt": "A practical guide to free AI tools that help with studying, note-taking, research and writing, plus how to use them without breaking academic integrity rules.",
+    "category": "ai-tools",
+    "tags": [
+      "ai for students",
+      "free ai tools",
+      "study tools",
+      "chatgpt",
+      "claude"
+    ],
+    "date": "2026-11-01",
+    "readTime": 7,
+    "coverColor": "#1E3A8A",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 919,
+    "quickAnswer": "Free tiers of general chatbots such as ChatGPT, Claude and Gemini cover most student needs: explaining concepts, quizzing you, outlining essays and checking your writing. Free plans change often and have usage limits, so check current terms, and always follow your school's rules on AI use.",
+    "faq": [
+      {
+        "q": "Are AI tools allowed for homework?",
+        "a": "It depends on your school or teacher. Some allow AI for brainstorming and feedback but not for submitted writing. Read the policy and ask if unsure."
+      },
+      {
+        "q": "Which free AI tool is best for studying?",
+        "a": "A general chatbot is usually the most flexible. Try two or three and see which explains things in the way that suits you."
+      },
+      {
+        "q": "Can AI tools make mistakes?",
+        "a": "Yes. They can state wrong facts confidently and invent sources, so verify anything important with your textbook or a reliable source."
+      },
+      {
+        "q": "Can teachers tell if I used AI?",
+        "a": "Detection is unreliable, and relying on it is risky. The safer approach is to use AI openly and within the rules."
+      },
+      {
+        "q": "Are free plans enough?",
+        "a": "For most students, generally yes, though limits on message numbers or advanced features may apply. Check current plan details."
+      }
+    ],
+    "affiliates": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "cta": "Open ChatGPT →",
+        "badge": "Free Plan"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai",
+        "cta": "Try Claude →"
+      },
+      {
+        "name": "Perplexity",
+        "url": "https://www.perplexity.ai",
+        "cta": "Try Perplexity →"
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/16420237/pexels-photo-16420237.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "Student in library using laptop and textbooks for study and research.",
+      "caption": "Photo by Ludovic Delot on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "Start with the rules",
+        "paras": [
+          "Before using any AI tool for coursework, find out what your school allows. Policies range from a full ban to open use with disclosure, and individual teachers may add their own rules. Breaking them can lead to serious consequences, whatever the tool.",
+          "A good default is to use AI to understand, practise and improve your own work rather than to produce work you submit as yours. If in doubt, ask your teacher, and keep notes on how you used a tool in case you need to explain it."
+        ]
+      },
+      {
+        "h2": "General chatbots: the all-rounders",
+        "paras": [
+          "Chatbots such as ChatGPT, Claude and Gemini offer free tiers that can explain a topic in simple terms, give worked examples, translate difficult passages and quiz you. Their strength is that you can keep asking follow-up questions until something clicks.",
+          "Their weakness is accuracy. They can make errors in maths, dates and citations, so treat them like a study partner who is often right but sometimes confidently wrong."
+        ],
+        "list": [
+          "Ask for an explanation at your level, for example 'explain like I am 15'.",
+          "Request a worked example, then try a similar problem yourself.",
+          "Ask the tool to point out its own assumptions.",
+          "Always verify facts against your course material."
+        ]
+      },
+      {
+        "h2": "Research helpers",
+        "paras": [
+          "Tools that combine a chatbot with web search, such as Perplexity, show sources alongside answers, which makes it easier to check claims and find reading material. Use them to get oriented in a topic, then read the original sources yourself.",
+          "Never cite a source you have not opened. AI tools sometimes produce references that look real but do not exist, and citing them is a quick way to lose marks."
+        ]
+      },
+      {
+        "h2": "Note-taking and summarising",
+        "paras": [
+          "AI can turn messy lecture notes into a cleaner outline, extract key terms or produce a first-draft summary of a chapter you have already read. This works best when you provide the material yourself and check the output against it.",
+          "Many students also record lectures where permitted and use transcription tools. Always check that recording is allowed in your class before you do it."
+        ]
+      },
+      {
+        "h2": "Practice and revision",
+        "paras": [
+          "One of the best uses of AI is generating practice questions. Paste a topic or your notes and ask for ten questions of increasing difficulty, then answer them before looking at the solutions. You can also ask the tool to quiz you one question at a time and explain mistakes.",
+          "Spaced practice like this tends to help memory more than rereading, and it keeps you doing the thinking."
+        ],
+        "list": [
+          "Prompt: Quiz me on [topic], one question at a time, starting easy.",
+          "Prompt: Make 10 exam-style questions from these notes: [paste].",
+          "Prompt: Explain why my answer is wrong, then give me a similar question."
+        ]
+      },
+      {
+        "h2": "Writing support without cheating",
+        "paras": [
+          "Use AI as an editor, not an author. Ask for feedback on structure, clarity and logic, or for an outline you then write from in your own words. Avoid pasting generated paragraphs into your essay.",
+          "You can check length constraints with a [word counter](/tools/word-counter), and keep a record of drafts so you can show your own process if asked."
+        ]
+      },
+      {
+        "h2": "Building a simple study routine with AI",
+        "paras": [
+          "Tools work best inside a routine. A simple pattern is to read or attend the lesson first, then ask an AI to quiz you on the key ideas, then check your answers against your own notes. Finish by asking for a short list of what you got wrong and plan your next session around those gaps.",
+          "For writing, draft first on your own, then ask for feedback on specific aspects such as clarity of argument or structure. Revise by hand. Keeping the thinking and the wording yours is both honest and better for learning.",
+          "For reading difficult texts, ask for a plain-language explanation of a paragraph you did not understand, then go back to the original and try again. Over time, you should need the explanation less. If you notice you rely on the tool for every step, that is a sign to slow down and do more of the work yourself.",
+          "Whatever you use, keep your own notes and drafts. They show your process, protect you if your work is questioned and help you study later."
+        ]
+      },
+      {
+        "h2": "Protect your privacy and your future self",
+        "paras": [
+          "Do not paste personal data, passwords or other people's private information into AI tools. Be cautious with unpublished work or exam material you are not allowed to share. And keep building your own skills: AI is most useful when it helps you learn faster, not when it replaces learning.",
+          "Use it for what it does well, check what it says, and stay within the rules."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chatgpt-prompts-resume-cover-letter",
+    "title": "ChatGPT Prompts for Resumes and Cover Letters That Stay Honest and Specific",
+    "excerpt": "Copy-paste AI prompts to tighten your resume, tailor it to a job ad and draft a cover letter in your own voice, with rules to avoid exaggeration.",
+    "category": "prompts",
+    "tags": [
+      "resume prompts",
+      "cover letter",
+      "chatgpt prompts",
+      "job search",
+      "claude prompts"
+    ],
+    "date": "2026-11-01",
+    "readTime": 7,
+    "coverColor": "#064E3B",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 768,
+    "quickAnswer": "Give the AI your real experience, the job description and a clear task such as 'rewrite these bullets to show results, using only the facts I give you'. Review every line for accuracy, add numbers you can prove and make sure the final text sounds like you.",
+    "faq": [
+      {
+        "q": "Can I use ChatGPT to write my resume?",
+        "a": "You can use it to draft and polish, but you remain responsible for every claim. Do not include anything untrue or exaggerated."
+      },
+      {
+        "q": "Will employers reject AI-written resumes?",
+        "a": "Some may dislike generic, clearly templated text. Specific, accurate content in your own voice avoids that problem."
+      },
+      {
+        "q": "Should I paste my personal details into the chatbot?",
+        "a": "Leave out sensitive data such as ID numbers, home address and full contact details until the final document."
+      },
+      {
+        "q": "How do I tailor a resume to a job ad?",
+        "a": "Ask the AI to compare the job description with your experience and highlight matching skills you really have."
+      },
+      {
+        "q": "How long should a resume be?",
+        "a": "Norms vary by country and career stage. Keep it focused, relevant and easy to scan."
+      }
+    ],
+    "affiliates": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "cta": "Open ChatGPT →",
+        "badge": "Free Plan"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai",
+        "cta": "Try Claude →"
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "Crop anonymous female filling questionnaire when applying for job sitting in employer office",
+      "caption": "Photo by Sora Shimazaki on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "The golden rule: facts in, facts out",
+        "paras": [
+          "AI models are happy to invent. If you ask for 'impressive achievements', they may produce numbers and claims that sound great but are false. That is a serious risk in a resume, where claims can be checked in an interview or background check.",
+          "Protect yourself by giving the model facts and telling it explicitly not to add anything. Every prompt below follows that principle."
+        ]
+      },
+      {
+        "h2": "Prompt 1: collect your real material",
+        "paras": [
+          "Start by letting the AI interview you. It pulls out details you might forget, such as tools used, team sizes and outcomes."
+        ],
+        "list": [
+          "Prompt: Interview me about my role as [job title] at [company]. Ask one question at a time about responsibilities, tools, results and how I measured success. Do not write anything until I say 'done'."
+        ]
+      },
+      {
+        "h2": "Prompt 2: rewrite bullets",
+        "paras": [
+          "Once you have rough notes, ask for stronger bullets. Keep the instruction about not inventing numbers."
+        ],
+        "list": [
+          "Prompt: Rewrite these bullet points to start with strong action verbs and show outcomes. Use only the facts I provide; if a number is missing, put [add number] instead of guessing. Keep each bullet under 25 words: [paste].",
+          "Prompt: Shorten these bullets without losing the key result: [paste]."
+        ]
+      },
+      {
+        "h2": "Prompt 3: tailor to a job ad",
+        "paras": [
+          "Tailoring beats sending the same resume everywhere, but it should never mean claiming skills you do not have."
+        ],
+        "list": [
+          "Prompt: Here is a job description: [paste]. Here is my resume: [paste]. List the requirements I clearly meet, those I partly meet and those I do not. Suggest which of my existing bullets to move higher. Do not add skills I have not listed."
+        ]
+      },
+      {
+        "h2": "Prompt 4: draft a cover letter",
+        "paras": [
+          "A cover letter should sound like a person, not a template. Provide specifics and ask for a draft you can rewrite."
+        ],
+        "list": [
+          "Prompt: Write a 200-word cover letter for [role] at [company]. Use these facts only: [list]. Open with a specific reason I am interested in this company, avoid cliches like 'I am writing to express my interest', and end with a clear next step.",
+          "Prompt: Give me three different opening lines for this letter, each under 25 words."
+        ]
+      },
+      {
+        "h2": "Prompt 5: interview preparation",
+        "paras": [
+          "Use the same material to rehearse. Ask the AI for likely questions based on the job description, then answer them aloud and ask for feedback on clarity and structure."
+        ],
+        "list": [
+          "Prompt: Based on this job description, ask me 8 interview questions, one at a time. After each answer, give feedback on clarity and suggest how to add a concrete example."
+        ]
+      },
+      {
+        "h2": "Mistakes to avoid when using AI for job applications",
+        "paras": [
+          "The biggest mistake is submitting text you have not read closely. AI can add claims about skills, tools or achievements that were never yours, and a hiring manager may ask about them in the interview. Another is using the same generic cover letter for every role. Recruiters read many applications and quickly spot vague, interchangeable text.",
+          "Also be careful with formatting. Some application systems read resumes automatically, and fancy layouts, tables or graphics can confuse them. A clean, single-column layout with standard headings is usually the safest choice. Ask the AI for plain text, then format it yourself.",
+          "Finally, remember privacy. Keep sensitive personal identifiers out of the chatbot and add contact details only when you build the final document. And save your own master version of your experience, so you can produce tailored versions quickly without losing track of what is true."
+        ]
+      },
+      {
+        "h2": "Final checks before you send",
+        "paras": [
+          "Read everything for accuracy. Make sure dates, job titles and numbers match your records. Remove generic phrases like 'results-driven team player' unless you can back them up. Check spelling and consistent formatting, and keep the file name professional.",
+          "Save your resume as a PDF unless the employer asks for another format. If the application portal limits file size, our [PDF compressor](/tools/compress-pdf-to-200kb) can help you fit within it."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chatgpt-prompts-excel-formulas",
+    "title": "ChatGPT Prompts for Excel and Google Sheets Formulas (With Examples)",
+    "excerpt": "How to describe your spreadsheet problem so AI writes a working formula, explains it and helps you debug errors, with copy-paste prompt templates.",
+    "category": "prompts",
+    "tags": [
+      "excel prompts",
+      "google sheets",
+      "chatgpt prompts",
+      "spreadsheet formulas",
+      "productivity"
+    ],
+    "date": "2026-11-01",
+    "readTime": 7,
+    "coverColor": "#064E3B",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 788,
+    "quickAnswer": "Describe your columns, give two or three example rows, state exactly what result you want and name the program (Excel or Google Sheets). Ask the AI to explain the formula, then test it on a copy of your data before relying on it.",
+    "faq": [
+      {
+        "q": "Can ChatGPT write Excel formulas?",
+        "a": "Yes, often well, but it can make mistakes. Test every formula on sample data before using it for real decisions."
+      },
+      {
+        "q": "Do I need to say which program I use?",
+        "a": "Yes. Some functions exist only in certain versions or differ between Excel and Google Sheets."
+      },
+      {
+        "q": "Can AI fix a formula error like #VALUE!?",
+        "a": "Often. Paste the formula, the error and a sample of the data and ask it to explain the cause."
+      },
+      {
+        "q": "Is it safe to paste business data?",
+        "a": "Avoid sensitive or confidential data. Replace real values with dummy examples."
+      },
+      {
+        "q": "Can AI write macros or scripts?",
+        "a": "It can draft VBA or Apps Script, but review the code carefully and run it on a copy first."
+      }
+    ],
+    "affiliates": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "cta": "Open ChatGPT →",
+        "badge": "Free Plan"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai",
+        "cta": "Try Claude →"
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/7947999/pexels-photo-7947999.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "Focused business analysis with charts and graphs on a laptop in a modern office setting.",
+      "caption": "Photo by RDNE Stock project on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "The anatomy of a good spreadsheet prompt",
+        "paras": [
+          "Vague prompts such as 'make a formula to sum sales' produce vague answers. A good prompt contains four things: the program and version, the layout of your data, a couple of example rows and the exact output you want.",
+          "The more precisely you describe the structure, the less the AI has to guess. Column letters, header names and sample values matter."
+        ],
+        "list": [
+          "Program: Excel or Google Sheets.",
+          "Layout: which column holds what.",
+          "Examples: two or three realistic rows.",
+          "Goal: the result you expect for those rows."
+        ]
+      },
+      {
+        "h2": "Prompt template: write a formula",
+        "paras": [
+          "Use this as your default starting point."
+        ],
+        "list": [
+          "Prompt: I use [Excel / Google Sheets]. Column A has dates, column B has product names and column C has sales amounts. Example rows: [paste 3 rows]. Write a formula that returns the total sales for product 'X' in November 2026. Explain how it works in plain language and give one alternative approach."
+        ]
+      },
+      {
+        "h2": "Prompt template: explain a formula",
+        "paras": [
+          "Inherited a complicated spreadsheet? AI is good at translating formulas into plain English."
+        ],
+        "list": [
+          "Prompt: Explain this formula step by step as if I am new to spreadsheets: [paste]. Then tell me what could go wrong, for example blank cells or text instead of numbers.",
+          "Prompt: Rewrite this formula so it is easier to read, and explain what you changed."
+        ]
+      },
+      {
+        "h2": "Prompt template: debug an error",
+        "paras": [
+          "Paste the formula, the error message and a few example cells."
+        ],
+        "list": [
+          "Prompt: This formula returns [error]: [paste]. Cell A2 contains [value], B2 contains [value]. Explain the likely cause and give a corrected formula.",
+          "Prompt: My lookup returns the wrong row. Here is the data layout and the formula: [paste]. What am I missing?"
+        ]
+      },
+      {
+        "h2": "Cleaning and reshaping data",
+        "paras": [
+          "Common data jobs are a natural fit for AI: splitting full names into first and last, standardising dates, removing duplicates or combining text from several columns."
+        ],
+        "list": [
+          "Prompt: Column A contains names like 'Smith, John'. Give me a formula to output 'John Smith' in column B.",
+          "Prompt: Dates in column C are text like '03/11/2026'. How do I convert them to real dates in [program]?",
+          "Prompt: Give me a step-by-step way to find duplicates in column A and highlight them."
+        ]
+      },
+      {
+        "h2": "Always verify",
+        "paras": [
+          "A formula that looks right can still be wrong, particularly with edge cases such as blanks, text stored as numbers and regional settings for separators and date formats. Test on a copy of your file and compare the AI's result with a manual calculation for a few rows.",
+          "For financial or legal spreadsheets, have a person review the logic before you rely on it."
+        ]
+      },
+      {
+        "h2": "Examples of tasks AI handles well",
+        "paras": [
+          "Some spreadsheet tasks are especially suited to AI help. Conditional totals, such as summing values that meet several criteria, are a common one. So are lookups across sheets, text cleaning, date calculations and building a dropdown that drives a dependent summary table.",
+          "Describe the result you want as a sentence first, for example 'show the average order value per month for customers in Germany'. Then add the layout. If the first formula fails, paste back exactly what you see, including any error text, rather than describing it loosely.",
+          "For bigger jobs, ask the AI to propose a plan before writing formulas: what helper columns you might need, what the final table should look like and how to check the totals. Planning in steps produces cleaner spreadsheets than one enormous formula nobody can read later. Add notes in a spare cell explaining the logic so your future self, or a colleague, can follow it."
+        ]
+      },
+      {
+        "h2": "Learn as you go",
+        "paras": [
+          "Treat each answer as a mini lesson. Ask 'why this function and not the alternative?' and 'what is the simplest way to do this?' Over time, you will recognise patterns and need the AI less for routine tasks. Keep a note of formulas that work so you can reuse them in future sheets.",
+          "If you export data to share, you can format raw data for other tools with the [JSON formatter](/tools/json-formatter) when needed."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ai-prompts-youtube-script-writing",
+    "title": "AI Prompts for Writing YouTube Scripts: Hooks, Outlines and Edits",
+    "excerpt": "Prompt templates for planning a video, writing a strong hook, structuring the script and tightening it for spoken delivery, without losing your own voice.",
+    "category": "prompts",
+    "tags": [
+      "youtube prompts",
+      "video script",
+      "chatgpt prompts",
+      "content creation",
+      "claude prompts"
+    ],
+    "date": "2026-11-01",
+    "readTime": 7,
+    "coverColor": "#064E3B",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 709,
+    "quickAnswer": "Give the AI your topic, audience, video length and style, then work in stages: ideas, hook, outline, draft, edit. Ask for spoken-style language, short sentences and no invented facts, and always rewrite the final script in your own voice.",
+    "faq": [
+      {
+        "q": "Can AI write a whole YouTube script?",
+        "a": "It can draft one, but results are usually generic. Treat it as a first draft and add your own examples and personality."
+      },
+      {
+        "q": "How long should a script be for a 10-minute video?",
+        "a": "Speaking pace varies, but people often speak at roughly 130-160 words per minute. Read your draft aloud and time it."
+      },
+      {
+        "q": "What makes a good hook?",
+        "a": "A clear promise or intriguing problem in the first few seconds that tells viewers why to keep watching."
+      },
+      {
+        "q": "Is it OK to use AI facts in my video?",
+        "a": "Verify them first. AI can state wrong facts confidently."
+      },
+      {
+        "q": "Will AI scripts hurt my channel?",
+        "a": "Generic, repetitive content can. Original perspective and honest delivery are what set channels apart."
+      }
+    ],
+    "affiliates": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "cta": "Open ChatGPT →",
+        "badge": "Free Plan"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai",
+        "cta": "Try Claude →"
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/36730081/pexels-photo-36730081.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "Woman filming vlog at home with camera setup, surrounded by plants and cozy decor.",
+      "caption": "Photo by Vitaly Gariev on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "Work in stages, not one giant prompt",
+        "paras": [
+          "The biggest mistake with AI scripting is asking for a finished 10-minute script in one go. You get a bland, padded result. Instead, move through ideation, hook, outline, draft and edit, reviewing each step and adding your own material.",
+          "Each stage below has a prompt you can paste and adapt."
+        ]
+      },
+      {
+        "h2": "Stage 1: video ideas and angles",
+        "paras": [
+          "Start with topic and audience, then ask for angles rather than titles alone."
+        ],
+        "list": [
+          "Prompt: I make YouTube videos about [niche] for [audience]. Suggest 10 video ideas where each has a specific angle, a viewer problem it solves and a possible title under 60 characters. Avoid generic 'ultimate guide' ideas."
+        ]
+      },
+      {
+        "h2": "Stage 2: the hook",
+        "paras": [
+          "The first seconds decide whether people stay. Ask for several options and pick the most honest one."
+        ],
+        "list": [
+          "Prompt: Write 5 hooks of under 30 words for a video titled [title]. Each should state the promise or tension immediately. Do not use clickbait that the video cannot deliver.",
+          "Prompt: Give me 3 hooks that start with a surprising but true detail. I will provide the facts: [facts]."
+        ]
+      },
+      {
+        "h2": "Stage 3: outline",
+        "paras": [
+          "Get a structure you can reshape. Include your own experiences and examples at this stage."
+        ],
+        "list": [
+          "Prompt: Create an outline for a [length]-minute video on [topic]. Include: hook, a quick preview of what viewers will learn, 4 main sections with a one-line point each, a place for my personal example, and an ending with one clear call to action."
+        ]
+      },
+      {
+        "h2": "Stage 4: draft in spoken language",
+        "paras": [
+          "Scripts are for the ear. Ask for short sentences and contractions, then read the draft aloud."
+        ],
+        "list": [
+          "Prompt: Draft the script for section 2 in a casual spoken style. Use short sentences, contractions and direct address ('you'). Use only the facts I give: [facts]. Mark places where I should add a personal story as [my story].",
+          "Prompt: Rewrite this paragraph so it sounds like natural speech, not an article: [paste]."
+        ]
+      },
+      {
+        "h2": "Stage 5: edit and tighten",
+        "paras": [
+          "Cutting is what separates good videos from rambling ones."
+        ],
+        "list": [
+          "Prompt: Cut this script by 20 percent without losing key points. Remove repetition and filler. Flag any claim that needs a source.",
+          "Prompt: Suggest places where a b-roll image, graphic or on-screen text would help understanding."
+        ]
+      },
+      {
+        "h2": "Structure patterns that keep viewers watching",
+        "paras": [
+          "Many successful videos follow a simple rhythm: promise, proof, payoff. Open by saying what the viewer will get, show you can deliver with a quick example, then deliver in clear steps. Break up long explanations with a change of pace, such as a demonstration, a story or an on-screen graphic.",
+          "Use open loops sparingly and honestly. A line like 'in a minute I will show the mistake that cost me a day' can hold attention, as long as you really do show it. Avoid promising something at the start that the video never delivers, because that leads to viewers leaving early and feeling misled.",
+          "Ask the AI to review your draft for pacing: where does it explain too long, where could you show instead of tell, and where does it repeat itself? Then decide for yourself what to change. Your knowledge of your audience is the part the tool cannot replace."
+        ]
+      },
+      {
+        "h2": "Keep it original and accurate",
+        "paras": [
+          "Add your own experience, opinions and examples; they are what viewers can't get elsewhere. Verify statistics, quotes and claims against primary sources, and never let the AI invent them. If you reference products, disclose any sponsorship or affiliate relationship as required where you live.",
+          "Finally, time your read-through and trim to length. A tight eight minutes usually beats a padded fifteen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ai-prompts-for-teachers-lesson-plans",
+    "title": "AI Prompts for Teachers: Lesson Plans, Quizzes and Differentiation",
+    "excerpt": "Prompt templates teachers can use to draft lesson plans, quiz questions, rubrics and parent emails faster, with guidance on checking accuracy and protecting student data.",
+    "category": "prompts",
+    "tags": [
+      "teacher prompts",
+      "lesson plans",
+      "chatgpt prompts",
+      "education",
+      "claude prompts"
+    ],
+    "date": "2026-11-01",
+    "readTime": 7,
+    "coverColor": "#064E3B",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 647,
+    "quickAnswer": "Tell the AI the grade level, subject, learning objective, time available and any constraints, then ask for a structured draft you can edit. Review it for accuracy and fit with your curriculum, and never enter identifiable student information.",
+    "faq": [
+      {
+        "q": "Can AI write a full lesson plan?",
+        "a": "It can draft a useful structure, but you know your class and curriculum. Adapt it before use."
+      },
+      {
+        "q": "Is it safe to include student names?",
+        "a": "Avoid identifiable student data in general-purpose AI tools and follow your school's data policy."
+      },
+      {
+        "q": "Can AI grade student work?",
+        "a": "It can help draft feedback, but assessment decisions should stay with the teacher, and policies on AI use for grading vary."
+      },
+      {
+        "q": "How do I make AI activities age-appropriate?",
+        "a": "State the grade and reading level explicitly and review everything before sharing."
+      },
+      {
+        "q": "Will AI make lessons generic?",
+        "a": "It can if you accept the first draft. Add local context and your own examples."
+      }
+    ],
+    "affiliates": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "cta": "Open ChatGPT →",
+        "badge": "Free Plan"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai",
+        "cta": "Try Claude →"
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/8423062/pexels-photo-8423062.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "A friendly female teacher smiles in front of a classroom whiteboard.",
+      "caption": "Photo by Pavel Danilyuk on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "Give context, get useful drafts",
+        "paras": [
+          "The most common reason AI lesson plans feel generic is missing context. A plan for 'photosynthesis' could be for seven-year-olds or university students. Always include grade level, time, prior knowledge, resources available and the exact objective.",
+          "Treat the output as a first draft from a colleague who has never met your class."
+        ]
+      },
+      {
+        "h2": "Prompt: lesson plan skeleton",
+        "paras": [
+          "A reusable template for planning:"
+        ],
+        "list": [
+          "Prompt: Create a [time]-minute lesson plan for grade [X] on [topic]. Objective: students will be able to [verb + skill]. Include a starter activity, direct teaching, guided practice, independent task, a quick check for understanding and a closing question. Assume no technology other than a whiteboard. Keep language suitable for [reading level]."
+        ]
+      },
+      {
+        "h2": "Prompt: quiz and practice questions",
+        "paras": [
+          "AI is efficient at producing question variations, which you then curate."
+        ],
+        "list": [
+          "Prompt: Write 10 multiple-choice questions on [topic] for grade [X], each with four options, one correct answer and a one-sentence explanation. Vary difficulty from easy to challenging.",
+          "Prompt: Create a short exit ticket of 3 questions that tests whether students understood [concept]."
+        ]
+      },
+      {
+        "h2": "Prompt: differentiation",
+        "paras": [
+          "Supporting varied needs is time-consuming; AI can suggest starting points."
+        ],
+        "list": [
+          "Prompt: Here is my activity: [paste]. Suggest a simpler version for students who need extra support, and an extension for those who finish early. Keep the same learning objective.",
+          "Prompt: Rewrite this passage at a lower reading level without changing the key facts: [paste]."
+        ]
+      },
+      {
+        "h2": "Prompt: rubrics and feedback",
+        "paras": [
+          "Clear rubrics save marking time and help students."
+        ],
+        "list": [
+          "Prompt: Create a 4-level rubric for a [assignment type] on [topic] with criteria for content, organisation, evidence and clarity. Use student-friendly language.",
+          "Prompt: I will paste a sample paragraph with no student name. Suggest two strengths and two specific next steps in an encouraging tone."
+        ]
+      },
+      {
+        "h2": "Prompt: communication",
+        "paras": [
+          "Emails and newsletters are another time-saver."
+        ],
+        "list": [
+          "Prompt: Draft a friendly 120-word email to parents about [event or reminder]. Include date, time and what students need to bring: [details]. Avoid jargon.",
+          "Prompt: Rewrite this note to sound warmer while staying professional: [paste]."
+        ]
+      },
+      {
+        "h2": "Saving time without losing your teaching voice",
+        "paras": [
+          "The point of using AI is to free time for the parts of teaching only you can do: noticing who is confused, adjusting on the fly and building relationships. Use it for first drafts of materials, then personalise them with names of places, examples from your community and references your class will recognise.",
+          "Keep a library of prompts that worked well, organised by task, and tweak them each term. Share them with colleagues, and agree as a department on what is acceptable, such as whether students may use AI and how it should be disclosed.",
+          "Be open with students about how you use these tools and about the limits. Modelling careful use, including checking facts and acknowledging errors, teaches digital literacy at the same time as the subject you are covering."
+        ]
+      },
+      {
+        "h2": "Check, adapt, protect",
+        "paras": [
+          "Verify facts, examples and any quoted material. AI can make mistakes in science, maths and history, and it may reflect bias. Align activities to your curriculum standards yourself.",
+          "Follow your school's policies on AI and student data. Use sample or anonymised work, and never paste names, grades or sensitive details into tools that your institution has not approved."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "perplexity-vs-google-search",
+    "title": "Perplexity vs Google Search: When to Use an AI Answer Engine and When Not To",
+    "excerpt": "A balanced comparison of AI answer engines and traditional search: where each shines, where each fails and how to combine them for faster, more reliable research.",
+    "category": "comparisons",
+    "tags": [
+      "perplexity",
+      "google search",
+      "ai search",
+      "research tools",
+      "comparison"
+    ],
+    "date": "2026-11-01",
+    "readTime": 7,
+    "coverColor": "#134E4A",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 787,
+    "quickAnswer": "Use an AI answer engine like Perplexity for quick overviews, comparisons and finding sources to read, and use Google for navigating to specific sites, local results, shopping and verifying details. Whichever you use, open the underlying sources before relying on an important claim.",
+    "faq": [
+      {
+        "q": "Is Perplexity better than Google?",
+        "a": "Neither is better for everything. AI answer engines summarise, while Google remains strong for navigation, local and transactional searches."
+      },
+      {
+        "q": "Can AI search results be wrong?",
+        "a": "Yes. Summaries can misread or omit context, so check the cited pages."
+      },
+      {
+        "q": "Is Perplexity free?",
+        "a": "It has had a free tier, but plans and limits change. Check the current pricing page."
+      },
+      {
+        "q": "Does Google also use AI answers?",
+        "a": "Google shows AI-generated overviews for some queries, and availability varies by region and over time."
+      },
+      {
+        "q": "Which is better for academic research?",
+        "a": "Use both to find leads, but rely on journals, databases and the original sources for citations."
+      }
+    ],
+    "affiliates": [
+      {
+        "name": "Perplexity",
+        "url": "https://www.perplexity.ai",
+        "cta": "Try Perplexity →",
+        "badge": "Free Plan"
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/38547/office-freelancer-computer-business-38547.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "Hands typing on MacBook Air with Google search open, coffee nearby.",
+      "caption": "Photo by Pixabay on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "Two different approaches",
+        "paras": [
+          "Traditional search returns a ranked list of pages and leaves you to read them. An AI answer engine reads several sources for you and writes a summary with citations. The first gives you control and breadth; the second gives you speed and synthesis.",
+          "Because the products change quickly, treat feature details in this article as a general picture and check each tool's current behaviour."
+        ]
+      },
+      {
+        "h2": "Where AI answer engines shine",
+        "paras": [
+          "They are strong at questions where the answer is spread across pages: comparing options, explaining a concept, summarising a debate or listing the main approaches to a problem. You can ask follow-up questions in the same thread, which saves reformulating queries.",
+          "They also help when you do not know the right keywords. Describe your problem in plain language and see what vocabulary the answer uses."
+        ],
+        "list": [
+          "Overviews of unfamiliar topics.",
+          "Comparisons between options.",
+          "Follow-up questions in context.",
+          "Finding sources to read next."
+        ]
+      },
+      {
+        "h2": "Where Google still wins",
+        "paras": [
+          "Search is better when you know where you want to go or need up-to-the-minute, local or transactional results: opening hours, nearby services, prices, maps, shopping listings and official websites. It also lets you scan many sources quickly and spot differences in opinion yourself.",
+          "For navigation, typing a brand name and clicking the official link is quicker than asking a chatbot to describe it."
+        ]
+      },
+      {
+        "h2": "Accuracy and trust",
+        "paras": [
+          "Both can mislead. A search result can be a low-quality page that ranks well, and an AI summary can blend sources incorrectly or state something with more certainty than the evidence supports. Citations help, but a citation does not prove the page says what the summary claims.",
+          "A good habit is to click through for any claim that matters: health, money, legal or safety decisions especially. For those topics, rely on official or professional sources."
+        ]
+      },
+      {
+        "h2": "Privacy and ads",
+        "paras": [
+          "Consider what you type in. Both kinds of service may store queries, and policies differ. Avoid entering sensitive personal or business information, and review privacy settings.",
+          "Search pages often include ads and sponsored results, while AI tools have their own business models. Be aware of how each makes money and look for clear labelling."
+        ]
+      },
+      {
+        "h2": "A combined workflow",
+        "paras": [
+          "A practical workflow uses both. Start with an AI answer engine to get oriented and gather leads. Then use Google to find official sources, confirm key details and look at alternatives. Finally, read the primary sources for anything you will quote or act on.",
+          "Save useful links as you go, so you can retrace your reasoning later."
+        ],
+        "list": [
+          "Ask the AI for an overview and a list of sources.",
+          "Open at least two sources and compare.",
+          "Search for official pages to verify key facts.",
+          "Write down what you confirmed."
+        ]
+      },
+      {
+        "h2": "Examples: which tool for which question?",
+        "paras": [
+          "Consider a few everyday searches. If you want to know the opening hours of a nearby pharmacy, a search engine with maps is the right choice. If you want a comparison of two approaches to learning a language, an AI answer engine can summarise the main arguments and link to articles you can read.",
+          "For a news event, check multiple reputable outlets directly and be cautious about summaries, since details change quickly. For a technical error message, search results often lead to forum threads where others solved the same problem, while an AI tool can explain the likely cause in your own words. Using both often beats either alone.",
+          "For shopping, search engines show listings and prices from many sellers, but prices and availability change constantly, so confirm on the seller's site. For health or legal questions, use official sources and professionals, and treat any online summary as a starting point for questions to ask."
+        ]
+      },
+      {
+        "h2": "Choosing for your situation",
+        "paras": [
+          "Students, writers and professionals each have different needs, but the principle is the same: use the tool that matches the task, and keep a sceptical eye on whatever it gives you. If speed matters, AI summaries can be a big help; if accuracy is critical, go to the source.",
+          "Review current features and pricing before committing to any paid plan."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "grammarly-vs-chatgpt-proofreading",
+    "title": "Grammarly vs ChatGPT for Proofreading: Which Should You Use?",
+    "excerpt": "Compare a dedicated grammar checker with a general AI chatbot for proofreading and editing: strengths, weaknesses, privacy and how to use both well.",
+    "category": "comparisons",
+    "tags": [
+      "grammarly",
+      "chatgpt",
+      "proofreading",
+      "grammar checker",
+      "ai writing"
+    ],
+    "date": "2026-11-01",
+    "readTime": 7,
+    "coverColor": "#134E4A",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 764,
+    "quickAnswer": "A dedicated grammar checker like Grammarly is convenient for catching typos and basic errors as you type in many apps, while a chatbot like ChatGPT is more flexible for rewriting, changing tone and explaining edits. Many writers use both, and then do a final read-through themselves.",
+    "faq": [
+      {
+        "q": "Is ChatGPT a good grammar checker?",
+        "a": "It can be good at fixing errors and explaining them, but it may also rewrite more than you asked unless you instruct it to make minimal changes."
+      },
+      {
+        "q": "Is Grammarly free?",
+        "a": "It has offered a free tier with basic checks and paid plans with more features. Check current plans and pricing."
+      },
+      {
+        "q": "Which is better for non-native English speakers?",
+        "a": "Both can help. A checker is good for steady feedback while writing, and a chatbot can explain why a phrase sounds unnatural."
+      },
+      {
+        "q": "Can these tools miss errors?",
+        "a": "Yes. Neither is perfect, so proofread important documents yourself."
+      },
+      {
+        "q": "Is my text private?",
+        "a": "Review each service's privacy policy, and avoid pasting confidential material unless your organisation approves it."
+      }
+    ],
+    "affiliates": [
+      {
+        "name": "Grammarly",
+        "url": "https://www.grammarly.com",
+        "cta": "See Grammarly →"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "cta": "Open ChatGPT →",
+        "badge": "Free Plan"
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/7968063/pexels-photo-7968063.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "Close-up of a senior woman editing a manuscript at a desk with a green marker indoors.",
+      "caption": "Photo by Ron Lach on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "Different tools for different jobs",
+        "paras": [
+          "Grammarly-style checkers live inside your browser, email and documents, and highlight issues as you type. A chatbot sits in a separate window where you paste text and give instructions. That difference shapes how each is best used.",
+          "The checker is a fast safety net. The chatbot is a flexible editor you can talk to."
+        ]
+      },
+      {
+        "h2": "Strengths of a dedicated checker",
+        "paras": [
+          "Checkers are convenient: errors appear as you write, in the place you write. They are consistent at catching typos, missing commas, agreement errors and repeated words, and they usually let you accept or reject each suggestion individually.",
+          "That control is useful for formal documents where you want to see every change."
+        ],
+        "list": [
+          "Real-time suggestions in many apps.",
+          "Accept or reject changes one by one.",
+          "Consistent basic error detection.",
+          "Settings for style and audience in some plans."
+        ]
+      },
+      {
+        "h2": "Strengths of a chatbot",
+        "paras": [
+          "A chatbot can do things a checker cannot easily do: rewrite a paragraph in a friendlier tone, shorten text to a limit, explain why a sentence is awkward or produce three alternative phrasings. You can also give context, such as the audience and purpose.",
+          "To keep it from over-editing, give precise instructions."
+        ],
+        "list": [
+          "Prompt: Proofread the text below. Fix only spelling, grammar and punctuation. Do not change wording or style. Show a list of changes at the end: [paste].",
+          "Prompt: Make this email more polite and concise, keeping the meaning: [paste].",
+          "Prompt: Explain why this sentence sounds unnatural and give two better versions: [paste]."
+        ]
+      },
+      {
+        "h2": "Weaknesses to watch",
+        "paras": [
+          "Checkers can give suggestions that fit rules but not your meaning, and may push every writer toward the same style. Chatbots can change facts, add claims that you did not write or remove nuance while polishing the language.",
+          "Whichever tool you use, compare the result with your original for meaning, not just correctness."
+        ]
+      },
+      {
+        "h2": "Privacy and workplace rules",
+        "paras": [
+          "Both approaches send your text to a service. Check how each handles your data, whether it may be used to improve the product and whether settings let you opt out. Many workplaces restrict what can be pasted into external tools, particularly for client or confidential material.",
+          "When in doubt, ask your organisation or use approved tools only."
+        ]
+      },
+      {
+        "h2": "A practical workflow",
+        "paras": [
+          "Write your draft first without worrying about perfection. Run a checker for quick fixes. Then, if the text needs more help, ask a chatbot for targeted edits with clear constraints. Finally, read the result aloud and make your own corrections.",
+          "If you have a strict length requirement, confirm it with a [word counter](/tools/word-counter) after editing."
+        ]
+      },
+      {
+        "h2": "Using tools to learn rather than just fix",
+        "paras": [
+          "If you want to improve your writing, not just the current document, look at why each change is suggested. A checker shows the rule behind many corrections, and a chatbot can explain in plain language. Over time you will notice your own repeated mistakes, such as comma splices or mixing tenses, and begin to avoid them.",
+          "Try asking a chatbot to list your three most frequent issues in a text, with examples, and then write a fresh paragraph while avoiding them. Compare again afterwards. This active practice is more effective than accepting every suggestion without thinking.",
+          "For second-language writers, ask for explanations of idioms and register, such as why one phrase sounds formal and another casual. This builds a feel for the language that spell-checking alone cannot provide. Whichever tool you pick, keep a personal list of rules and phrases you want to remember."
+        ]
+      },
+      {
+        "h2": "Which should you pick?",
+        "paras": [
+          "If you mostly want fewer typos across emails and documents, a checker is convenient. If you need rewriting, tone changes and explanations, a chatbot fits better. Many people use a free tier of each and see what they actually reach for.",
+          "Remember that tools support your writing; they do not replace your judgement about what you want to say."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "automate-meeting-notes-with-ai",
+    "title": "How to Automate Meeting Notes and Action Items with AI",
+    "excerpt": "Set up a simple workflow that records or transcribes meetings, summarises decisions, extracts action items and sends them to the right people, with consent and privacy in mind.",
+    "category": "automation",
+    "tags": [
+      "meeting notes",
+      "ai transcription",
+      "automation",
+      "action items",
+      "productivity"
+    ],
+    "date": "2026-11-01",
+    "readTime": 7,
+    "coverColor": "#4C1D95",
+    "author": "Prompts & Tools Editorial",
+    "wordCount": 729,
+    "quickAnswer": "Get consent to record or transcribe, use a transcription tool to produce the text, then prompt an AI to summarise decisions and list action items with owners and deadlines. Review the output for accuracy and send it to attendees in a consistent template.",
+    "faq": [
+      {
+        "q": "Do I need permission to record a meeting?",
+        "a": "Rules differ by country and workplace. Always tell participants and obtain consent where required."
+      },
+      {
+        "q": "Can AI miss action items?",
+        "a": "Yes. Review the summary against the transcript or your own notes before sending."
+      },
+      {
+        "q": "Which tools can transcribe meetings?",
+        "a": "Several services offer meeting transcription and summaries. Compare current features, languages and pricing before choosing."
+      },
+      {
+        "q": "Is meeting data confidential?",
+        "a": "It can be. Check the tool's privacy policy and your company's rules before uploading recordings."
+      },
+      {
+        "q": "How long should meeting notes be?",
+        "a": "Short enough to be read: decisions, action items with owners and dates, and key context."
+      }
+    ],
+    "affiliates": [
+      {
+        "name": "Otter.ai",
+        "url": "https://otter.ai",
+        "cta": "See Otter.ai →"
+      },
+      {
+        "name": "Fireflies",
+        "url": "https://fireflies.ai",
+        "cta": "See Fireflies →"
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.pexels.com/photos/7731361/pexels-photo-7731361.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "alt": "Hands-on teamwork over a laptop in a business meeting setting.",
+      "caption": "Photo by Mikhail Nilov on Pexels"
+    },
+    "sections": [
+      {
+        "h2": "Why automate meeting notes",
+        "paras": [
+          "Many teams lose decisions in a haze of chat messages and half-remembered conversations. Taking notes manually pulls attention from the discussion, and the notes are often incomplete. An automated workflow captures what was said and turns it into a consistent summary.",
+          "The goal is not to replace thinking, but to free people to participate and make follow-up reliable."
+        ]
+      },
+      {
+        "h2": "Step 1: get consent and set expectations",
+        "paras": [
+          "Tell participants at the start that the meeting will be recorded or transcribed and why. Laws and company policies about recording vary, and some participants may prefer not to be recorded. Offer an alternative, such as manual notes, when needed.",
+          "Decide who can access recordings and how long they are kept. A short written policy avoids awkward questions later."
+        ]
+      },
+      {
+        "h2": "Step 2: capture a transcript",
+        "paras": [
+          "Use a transcription tool or the built-in features of your video-call software, where available. Check that it supports your language and handles accents and technical terms reasonably well. Names and jargon are often misspelled, so keep a short glossary to paste in later.",
+          "If recording is not allowed, one person can type rough notes live and paste them into the next step."
+        ]
+      },
+      {
+        "h2": "Step 3: summarise with a structured prompt",
+        "paras": [
+          "A clear template makes summaries consistent and quick to scan."
+        ],
+        "list": [
+          "Prompt: Below is a meeting transcript. Produce: (1) a 3-sentence summary, (2) decisions made, (3) action items as a table with owner, task and deadline, (4) open questions. Use only information in the transcript; if an owner or deadline is not stated, write 'not stated'. Transcript: [paste]."
+        ]
+      },
+      {
+        "h2": "Step 4: review and send",
+        "paras": [
+          "AI summaries can attribute tasks to the wrong person or invent deadlines. Compare the action items with your memory of the meeting and fix errors before sharing. Send the notes the same day, while people still remember the discussion.",
+          "Use a consistent subject line, such as 'Notes: Project X weekly, 3 Nov'. A predictable format helps people find information later."
+        ],
+        "list": [
+          "Check names and owners.",
+          "Check deadlines and numbers.",
+          "Remove anything confidential that should not be shared widely.",
+          "Send to attendees and relevant stakeholders."
+        ]
+      },
+      {
+        "h2": "Step 5: connect it to your task tools",
+        "paras": [
+          "Once the basics work, you can connect steps with an automation platform such as Zapier, Make or n8n. For example, a new transcript could trigger the summary prompt and then create tasks in your project tool. Build this gradually and test with a low-stakes meeting first.",
+          "Keep a person in the loop for approval before tasks are assigned to others, at least until you trust the setup."
+        ]
+      },
+      {
+        "h2": "Templates that make notes more useful",
+        "paras": [
+          "Consistent structure makes notes easier to scan and search. For a weekly team meeting, you might always include: decisions, action items, blockers and next meeting date. For a client call: goals, agreed deliverables, risks and follow-up questions. For a brainstorm: ideas grouped by theme and the shortlist chosen.",
+          "Store notes in one shared place, such as a shared folder or wiki, with a naming convention like date plus meeting name. When notes are easy to find, people actually read them, and the automation pays for itself by reducing repeated questions.",
+          "Finally, review the workflow monthly. Ask the team whether the summaries are accurate, whether anything important is missed and whether the format could be shorter. Small adjustments to the prompt, the template or the recording setup often improve results more than switching tools."
+        ]
+      },
+      {
+        "h2": "Privacy and quality tips",
+        "paras": [
+          "Do not upload sensitive meetings, such as HR, legal or customer-confidential discussions, unless the tool is approved by your organisation. Prefer providers that explain how data is stored and whether it is used for training.",
+          "Quality improves with good audio. Use a decent microphone, ask people to speak one at a time and state names when assigning tasks. Those habits make both humans and machines more accurate."
+        ]
+      }
+    ]
+  },
 ];
 
 // Extra photos (Pexels) picked by blog-farm/scripts/section_images.py: cover (fills a missing one or replaces a duplicate) + in-article images.

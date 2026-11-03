@@ -8,6 +8,20 @@ const SITE_URL = "https://promptsandtools.online";
 const SITE_NAME = "Prompts & Tools";
 const AUTHOR = "Prompts & Tools Editorial";
 
+// Renders [text](/internal-path) markdown-style links inside plain-text paragraphs and list items.
+function renderRich(text: string) {
+  const parts: React.ReactNode[] = [];
+  const re = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
+  let last = 0; let m: RegExpExecArray | null; let i = 0;
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > last) parts.push(text.slice(last, m.index));
+    parts.push(<Link key={i++} href={m[2]} className="underline" style={{ color: "#3B82F6" }}>{m[1]}</Link>);
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) parts.push(text.slice(last));
+  return parts.length ? parts : text;
+}
+
 export async function generateStaticParams() { return posts.map((p) => ({ slug: p.slug })); }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -110,9 +124,9 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
                     {section.image.caption && <figcaption className="text-xs text-center py-2 px-4" style={{ color: "#4A5580", background: "#0B0F22" }}>{section.image.caption}</figcaption>}
                   </figure>
                 )}
-                {section.paras.map((para, j) => <p key={j}>{para}</p>)}
+                {section.paras.map((para, j) => <p key={j}>{renderRich(para)}</p>)}
                 {section.list && (
-                  <ul>{section.list.map((item, k) => <li key={k}>{item}</li>)}</ul>
+                  <ul>{section.list.map((item, k) => <li key={k}>{renderRich(item)}</li>)}</ul>
                 )}
                 {section.tip && (
                   <div className="my-4 p-4 rounded-lg text-sm leading-relaxed" style={{ background: "rgba(34,211,238,0.07)", border: "1px solid rgba(34,211,238,0.2)", color: "#A0AEC0" }}>
