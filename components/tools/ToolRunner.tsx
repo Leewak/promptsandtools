@@ -5,6 +5,7 @@ import type { ComponentType } from "react";
 import type { ToolKind } from "@/lib/tools";
 import { MEDIA_MAP } from "./media/map";
 import { TEXTDEV_MAP } from "./textdev/map";
+import { CALC_MAP } from "./calc/map";
 
 const loading = () => <div className="rounded-2xl h-64 animate-pulse" style={{ background: "#10122A", border: "1px solid #23264A" }} />;
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -21,6 +22,7 @@ const MAP: Record<ToolKind, ComponentType<any>> = {
   "json-formatter": dynamic(() => import("./JsonFormatter"), { ssr: false, loading }),
   ...MEDIA_MAP,
   ...TEXTDEV_MAP,
+  ...CALC_MAP,
 };
 
 export function ToolRunner({ kind, props }: { kind: ToolKind; props?: Record<string, string | number> }) {

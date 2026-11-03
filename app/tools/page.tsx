@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://promptsandtools.online/tools" },
 };
 
-const ORDER: ToolCategory[] = ["PDF", "Image", "Photo ID", "Utilities", "Text", "Developer"];
+const ORDER: ToolCategory[] = ["PDF", "Image", "Photo ID", "Utilities", "Text", "Developer", "Calculators", "Converters"];
 
 export default function ToolsPage() {
   return (

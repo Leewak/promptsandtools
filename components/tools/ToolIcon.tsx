@@ -2,6 +2,7 @@ import { Braces, FileDown, FileImage, ImageDown, KeyRound, PenLine, QrCode, Scal
 import type { ToolKind } from "@/lib/tools";
 import { MEDIA_ICONS } from "./media/icons";
 import { TEXTDEV_ICONS } from "./textdev/icons";
+import { CALC_ICONS } from "./calc/icons";
 
 const ICONS: Record<ToolKind, LucideIcon> = {
   "compress-pdf": FileDown,
@@ -16,6 +17,7 @@ const ICONS: Record<ToolKind, LucideIcon> = {
   "json-formatter": Braces,
   ...MEDIA_ICONS,
   ...TEXTDEV_ICONS,
+  ...CALC_ICONS,
 };
 
 /** Tinted icon tile in the tool's category colour. */
