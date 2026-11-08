@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import { AdsterraBanner, AdsterraInline } from "@/components/Adsterra";
 import { ToolRunner } from "./ToolRunner";
 import { Faq } from "./Faq";
+import { Rich } from "./Rich";
+import { guideFor } from "@/lib/toolGuides";
 import { categoryAnchor, getTool, type ToolDef } from "@/lib/tools";
 
 const SITE = "https://promptsandtools.online";
@@ -28,6 +30,7 @@ export function ToolPage({ t }: { t: ToolDef }) {
       { "@type": "ListItem", position: 3, name: t.crumb, item: url },
     ] },
   ];
+  const guide = guideFor(t);
   const related = t.related.map(getTool).filter((r): r is ToolDef => !!r);
 
   return (
@@ -70,6 +73,17 @@ export function ToolPage({ t }: { t: ToolDef }) {
         </ol>
       </section>
 
+      {guide?.map((g) => (
+        <section key={g.h2} className="max-w-[780px] flex flex-col gap-4">
+          <h2 className="text-[28px] font-bold" style={{ letterSpacing: "-0.02em", color: "#E8EAF6" }}>{g.h2}</h2>
+          {g.paras.map((x, i) => <p key={i} className="text-base leading-relaxed" style={{ color: "#C9CCE8" }}><Rich text={x} /></p>)}
+          {g.list && (
+            <ul className="flex flex-col gap-2 pl-5 list-disc text-base leading-relaxed" style={{ color: "#C9CCE8" }}>
+              {g.list.map((x, i) => <li key={i}><Rich text={x} /></li>)}
+            </ul>
+          )}
+        </section>
+      ))}
       <section className="max-w-[780px]">
         <h2 className="text-[28px] font-bold mb-5" style={{ letterSpacing: "-0.02em", color: "#E8EAF6" }}>FAQ</h2>
         <Faq items={t.faq} />
